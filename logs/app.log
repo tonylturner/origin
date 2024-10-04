@@ -1,0 +1,734 @@
+2024-09-28 14:47:26,737 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 14:50:05,511 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 14:53:09,467 - ERROR - Error trying to connect to socket: closing socket - [Errno 61] Connection refused
+2024-09-28 14:53:24,497 - ERROR - Error trying to connect to socket: closing socket - [Errno 61] Connection refused
+2024-09-28 14:53:27,187 - ERROR - DNS MX lookup failed for drdelambre.com: The DNS query name does not exist: drdelambre.com.
+2024-09-28 14:53:33,774 - ERROR - DNS MX lookup failed for drdelambre.com: The DNS query name does not exist: drdelambre.com.
+2024-09-28 14:59:28,223 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:01:47,409 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:07:47,000 - email_service - ERROR - DNS MX lookup failed for drdelambre.com: The DNS query name does not exist: drdelambre.com.
+2024-09-28 15:07:53,614 - email_service - ERROR - DNS MX lookup failed for drdelambre.com: The DNS query name does not exist: drdelambre.com.
+2024-09-28 15:10:30,101 - email_service - ERROR - WHOIS lookup failed for seznam.cz at attempt 1: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:11:33,124 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-09-28 15:11:33,430 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/facebook/react HTTP/11" 200 None
+2024-09-28 15:11:33,892 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/facebook/react/contributors HTTP/11" 200 None
+2024-09-28 15:11:34,241 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/zpao HTTP/11" 200 None
+2024-09-28 15:11:34,242 - email_service - DEBUG - Resolving DNS MX records for oshannessy.com
+2024-09-28 15:11:34,374 - email_service - DEBUG - Attempting WHOIS lookup for oshannessy.com
+2024-09-28 15:11:34,374 - email_service - DEBUG - Attempting WHOIS lookup for oshannessy.com, attempt 1
+2024-09-28 15:11:36,095 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/gaearon HTTP/11" 200 None
+2024-09-28 15:11:36,435 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sebmarkbage HTTP/11" 200 None
+2024-09-28 15:11:36,436 - email_service - DEBUG - Resolving DNS MX records for calyptus.eu
+2024-09-28 15:11:36,453 - email_service - DEBUG - Attempting WHOIS lookup for calyptus.eu
+2024-09-28 15:11:36,453 - email_service - DEBUG - Attempting WHOIS lookup for calyptus.eu, attempt 1
+2024-09-28 15:11:37,002 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/acdlite HTTP/11" 200 None
+2024-09-28 15:11:37,003 - email_service - DEBUG - Resolving DNS MX records for andrewclark.io
+2024-09-28 15:11:37,061 - email_service - DEBUG - Attempting WHOIS lookup for andrewclark.io
+2024-09-28 15:11:37,062 - email_service - DEBUG - Attempting WHOIS lookup for andrewclark.io, attempt 1
+2024-09-28 15:11:40,895 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-09-28 15:11:41,152 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/facebook/react HTTP/11" 200 None
+2024-09-28 15:11:41,573 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/facebook/react/contributors HTTP/11" 200 None
+2024-09-28 15:11:41,918 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/zpao HTTP/11" 200 None
+2024-09-28 15:11:41,919 - email_service - DEBUG - Resolving DNS MX records for oshannessy.com
+2024-09-28 15:11:42,048 - email_service - DEBUG - Attempting WHOIS lookup for oshannessy.com
+2024-09-28 15:11:42,048 - email_service - DEBUG - Attempting WHOIS lookup for oshannessy.com, attempt 1
+2024-09-28 15:11:52,243 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/gaearon HTTP/11" 200 None
+2024-09-28 15:11:52,591 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sebmarkbage HTTP/11" 200 None
+2024-09-28 15:11:52,592 - email_service - DEBUG - Resolving DNS MX records for calyptus.eu
+2024-09-28 15:11:52,610 - email_service - DEBUG - Attempting WHOIS lookup for calyptus.eu
+2024-09-28 15:11:52,610 - email_service - DEBUG - Attempting WHOIS lookup for calyptus.eu, attempt 1
+2024-09-28 15:11:53,859 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/acdlite HTTP/11" 200 None
+2024-09-28 15:11:53,860 - email_service - DEBUG - Resolving DNS MX records for andrewclark.io
+2024-09-28 15:11:53,880 - email_service - DEBUG - Attempting WHOIS lookup for andrewclark.io
+2024-09-28 15:11:53,885 - email_service - DEBUG - Attempting WHOIS lookup for andrewclark.io, attempt 1
+2024-09-28 15:11:54,876 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sophiebits HTTP/11" 200 None
+2024-09-28 15:11:54,877 - email_service - DEBUG - Resolving DNS MX records for sophiebits.com
+2024-09-28 15:11:54,905 - email_service - DEBUG - Attempting WHOIS lookup for sophiebits.com
+2024-09-28 15:11:54,906 - email_service - DEBUG - Attempting WHOIS lookup for sophiebits.com, attempt 1
+2024-09-28 15:11:55,515 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/josephsavona HTTP/11" 200 None
+2024-09-28 15:11:55,858 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/poteto HTTP/11" 200 None
+2024-09-28 15:11:56,203 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jimfb HTTP/11" 200 None
+2024-09-28 15:11:56,556 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/trueadm HTTP/11" 200 None
+2024-09-28 15:11:56,899 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/gsathya HTTP/11" 200 None
+2024-09-28 15:11:57,253 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bvaughn HTTP/11" 200 None
+2024-09-28 15:11:57,596 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/petehunt HTTP/11" 200 None
+2024-09-28 15:11:57,939 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/kassens HTTP/11" 200 None
+2024-09-28 15:11:57,941 - email_service - DEBUG - Resolving DNS MX records for kassens.net
+2024-09-28 15:11:57,956 - email_service - DEBUG - Attempting WHOIS lookup for kassens.net
+2024-09-28 15:11:57,956 - email_service - DEBUG - Attempting WHOIS lookup for kassens.net, attempt 1
+2024-09-28 15:11:58,648 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mofeiZ HTTP/11" 200 None
+2024-09-28 15:11:58,988 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/chenglou HTTP/11" 200 None
+2024-09-28 15:11:59,331 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/rickhanlonii HTTP/11" 200 None
+2024-09-28 15:11:59,673 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/gnoff HTTP/11" 200 None
+2024-09-28 15:12:00,025 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/vjeux HTTP/11" 200 None
+2024-09-28 15:12:00,368 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/eps1lon HTTP/11" 200 None
+2024-09-28 15:12:00,726 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/yungsters HTTP/11" 200 None
+2024-09-28 15:12:01,085 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/hoxyq HTTP/11" 200 None
+2024-09-28 15:12:01,437 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/benjamn HTTP/11" 200 None
+2024-09-28 15:12:01,440 - email_service - DEBUG - Resolving DNS MX records for eloper.dev
+2024-09-28 15:12:01,506 - email_service - DEBUG - Attempting WHOIS lookup for eloper.dev
+2024-09-28 15:12:01,506 - email_service - DEBUG - Attempting WHOIS lookup for eloper.dev, attempt 1
+2024-09-28 15:12:03,000 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/lunaruan HTTP/11" 200 None
+2024-09-28 15:12:03,354 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/subtleGradient HTTP/11" 200 None
+2024-09-28 15:12:03,354 - email_service - DEBUG - Resolving DNS MX records for subtlegradient.com
+2024-09-28 15:12:03,372 - email_service - DEBUG - Attempting WHOIS lookup for subtlegradient.com
+2024-09-28 15:12:03,372 - email_service - DEBUG - Attempting WHOIS lookup for subtlegradient.com, attempt 1
+2024-09-28 15:12:13,417 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nhunzaker HTTP/11" 200 None
+2024-09-28 15:12:13,822 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/necolas HTTP/11" 200 None
+2024-09-28 15:12:14,251 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/dependabot%5Bbot%5D HTTP/11" 200 None
+2024-09-28 15:12:14,681 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/syranide HTTP/11" 200 None
+2024-09-28 15:12:15,040 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/cpojer HTTP/11" 200 None
+2024-09-28 15:12:15,421 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/flarnie HTTP/11" 200 None
+2024-09-28 15:12:15,926 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=2 HTTP/11" 200 None
+2024-09-28 15:12:16,278 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/koba04 HTTP/11" 200 None
+2024-09-28 15:12:16,673 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/aweary HTTP/11" 200 None
+2024-09-28 15:12:17,062 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jackpope HTTP/11" 200 None
+2024-09-28 15:12:17,406 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mvitousek HTTP/11" 200 None
+2024-09-28 15:12:17,782 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mondaychen HTTP/11" 200 None
+2024-09-28 15:12:18,132 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/marocchino HTTP/11" 200 None
+2024-09-28 15:12:18,489 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/kohei-takata HTTP/11" 200 None
+2024-09-28 15:12:18,838 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/tyao1 HTTP/11" 200 None
+2024-09-28 15:12:19,190 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/elicwhite HTTP/11" 200 None
+2024-09-28 15:12:19,553 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sammy-SC HTTP/11" 200 None
+2024-09-28 15:12:19,897 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/chicoxyzzy HTTP/11" 200 None
+2024-09-28 15:12:20,245 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/keyz HTTP/11" 200 None
+2024-09-28 15:12:20,600 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mcsheffrey HTTP/11" 200 None
+2024-09-28 15:12:20,601 - email_service - DEBUG - Resolving DNS MX records for conr.me
+2024-09-28 15:12:20,617 - email_service - DEBUG - Attempting WHOIS lookup for conr.me
+2024-09-28 15:12:20,617 - email_service - DEBUG - Attempting WHOIS lookup for conr.me, attempt 1
+2024-09-28 15:12:21,537 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bgw HTTP/11" 200 None
+2024-09-28 15:12:21,538 - email_service - DEBUG - Resolving DNS MX records for benjam.info
+2024-09-28 15:12:21,603 - email_service - DEBUG - Attempting WHOIS lookup for benjam.info
+2024-09-28 15:12:21,604 - email_service - DEBUG - Attempting WHOIS lookup for benjam.info, attempt 1
+2024-09-28 15:12:22,249 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/salazarm HTTP/11" 200 None
+2024-09-28 15:12:22,646 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/NE-SmallTown HTTP/11" 200 None
+2024-09-28 15:12:23,008 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/joshduck HTTP/11" 200 None
+2024-09-28 15:12:23,358 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/SimenB HTTP/11" 200 None
+2024-09-28 15:12:23,702 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/aickin HTTP/11" 200 None
+2024-09-28 15:12:24,043 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/rubennorte HTTP/11" 200 None
+2024-09-28 15:12:24,380 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jquense HTTP/11" 200 None
+2024-09-28 15:12:24,723 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/philipp-spiess HTTP/11" 200 None
+2024-09-28 15:12:24,724 - email_service - DEBUG - Resolving DNS MX records for philippspiess.com
+2024-09-28 15:12:24,776 - email_service - DEBUG - Attempting WHOIS lookup for philippspiess.com
+2024-09-28 15:12:24,776 - email_service - DEBUG - Attempting WHOIS lookup for philippspiess.com, attempt 1
+2024-09-28 15:12:25,298 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Daniel15 HTTP/11" 200 None
+2024-09-28 15:12:25,299 - email_service - DEBUG - Resolving DNS MX records for d.sb
+2024-09-28 15:12:25,419 - email_service - DEBUG - Attempting WHOIS lookup for d.sb
+2024-09-28 15:12:25,419 - email_service - DEBUG - Attempting WHOIS lookup for d.sb, attempt 1
+2024-09-28 15:12:35,424 - whois.whois - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:12:35,619 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/iamdustan HTTP/11" 200 None
+2024-09-28 15:12:35,973 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/threepointone HTTP/11" 200 None
+2024-09-28 15:12:36,350 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Biki-das HTTP/11" 200 None
+2024-09-28 15:12:36,706 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/raphamorim HTTP/11" 200 None
+2024-09-28 15:12:37,091 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jordwalke HTTP/11" 200 None
+2024-09-28 15:12:37,438 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sompylasar HTTP/11" 200 None
+2024-09-28 15:12:37,785 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/fabiomcosta HTTP/11" 200 None
+2024-09-28 15:12:38,467 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=3 HTTP/11" 200 None
+2024-09-28 15:12:38,822 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/fisherwebdev HTTP/11" 200 None
+2024-09-28 15:12:39,163 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Simek HTTP/11" 200 None
+2024-09-28 15:12:39,166 - email_service - DEBUG - Resolving DNS MX records for simek.dev
+2024-09-28 15:12:39,182 - email_service - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:12:39,182 - email_service - DEBUG - Attempting WHOIS lookup for simek.dev
+2024-09-28 15:12:39,182 - email_service - DEBUG - Attempting WHOIS lookup for simek.dev, attempt 1
+2024-09-28 15:12:39,558 - email_service - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:12:39,649 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/tomocchino HTTP/11" 200 None
+2024-09-28 15:12:39,988 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bl00mber HTTP/11" 200 None
+2024-09-28 15:12:40,333 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/iamchenxin HTTP/11" 200 None
+2024-09-28 15:12:40,669 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/waldreiter HTTP/11" 200 None
+2024-09-28 15:12:41,015 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/noahlemen HTTP/11" 200 None
+2024-09-28 15:12:41,364 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/arkist HTTP/11" 200 None
+2024-09-28 15:12:41,710 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/motiz88 HTTP/11" 200 None
+2024-09-28 15:12:42,051 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/unstubbable HTTP/11" 200 None
+2024-09-28 15:12:42,394 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mroch HTTP/11" 200 None
+2024-09-28 15:12:42,756 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/graue HTTP/11" 200 None
+2024-09-28 15:12:43,167 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ivanzotov HTTP/11" 200 None
+2024-09-28 15:12:43,168 - email_service - DEBUG - Resolving DNS MX records for ivanzotov.com
+2024-09-28 15:12:43,545 - email_service - DEBUG - Attempting WHOIS lookup for ivanzotov.com
+2024-09-28 15:12:43,545 - email_service - DEBUG - Attempting WHOIS lookup for ivanzotov.com, attempt 1
+2024-09-28 15:12:44,318 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/kmeht HTTP/11" 200 None
+2024-09-28 15:12:44,664 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/elas7 HTTP/11" 200 None
+2024-09-28 15:12:45,007 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/yangshun HTTP/11" 200 None
+2024-09-28 15:12:45,354 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/fxxkscript HTTP/11" 200 None
+2024-09-28 15:12:45,356 - email_service - DEBUG - Resolving DNS MX records for tomo.im
+2024-09-28 15:12:45,380 - email_service - DEBUG - Attempting WHOIS lookup for tomo.im
+2024-09-28 15:12:45,380 - email_service - DEBUG - Attempting WHOIS lookup for tomo.im, attempt 1
+2024-09-28 15:12:45,966 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ymqy HTTP/11" 200 None
+2024-09-28 15:12:46,311 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Andarist HTTP/11" 200 None
+2024-09-28 15:12:46,663 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/lucasecdb HTTP/11" 200 None
+2024-09-28 15:12:46,998 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/leebyron HTTP/11" 200 None
+2024-09-28 15:12:46,999 - email_service - DEBUG - Resolving DNS MX records for leebyron.com
+2024-09-28 15:12:47,051 - email_service - DEBUG - Attempting WHOIS lookup for leebyron.com
+2024-09-28 15:12:47,051 - email_service - DEBUG - Attempting WHOIS lookup for leebyron.com, attempt 1
+2024-09-28 15:12:47,736 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/RReverser HTTP/11" 200 None
+2024-09-28 15:12:47,737 - email_service - DEBUG - Resolving DNS MX records for rreverser.com
+2024-09-28 15:12:47,767 - email_service - DEBUG - Attempting WHOIS lookup for rreverser.com
+2024-09-28 15:12:47,767 - email_service - DEBUG - Attempting WHOIS lookup for rreverser.com, attempt 1
+2024-09-28 15:12:48,226 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bhamodi HTTP/11" 200 None
+2024-09-28 15:12:48,227 - email_service - DEBUG - Resolving DNS MX records for uwaterloo.ca
+2024-09-28 15:12:48,288 - email_service - DEBUG - Attempting WHOIS lookup for uwaterloo.ca
+2024-09-28 15:12:48,288 - email_service - DEBUG - Attempting WHOIS lookup for uwaterloo.ca, attempt 1
+2024-09-28 15:12:48,723 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/DarkScorpion HTTP/11" 200 None
+2024-09-28 15:12:49,072 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jddxf HTTP/11" 200 None
+2024-09-28 15:12:49,072 - email_service - DEBUG - Resolving DNS MX records for qq.com
+2024-09-28 15:12:49,088 - email_service - DEBUG - Attempting WHOIS lookup for qq.com
+2024-09-28 15:12:49,088 - email_service - DEBUG - Attempting WHOIS lookup for qq.com, attempt 1
+2024-09-28 15:12:49,725 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/yiminghe HTTP/11" 200 None
+2024-09-28 15:12:50,076 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/rickbeerendonk HTTP/11" 200 None
+2024-09-28 15:12:50,432 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/raunofreiberg HTTP/11" 200 None
+2024-09-28 15:12:50,799 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/JoshuaGross HTTP/11" 200 None
+2024-09-28 15:12:51,143 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/joecritch HTTP/11" 200 None
+2024-09-28 15:12:51,608 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=4 HTTP/11" 200 None
+2024-09-28 15:12:51,953 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jaredly HTTP/11" 200 None
+2024-09-28 15:12:51,954 - email_service - DEBUG - Resolving DNS MX records for jaredforsyth.com
+2024-09-28 15:12:52,003 - email_service - DEBUG - Attempting WHOIS lookup for jaredforsyth.com
+2024-09-28 15:12:52,003 - email_service - DEBUG - Attempting WHOIS lookup for jaredforsyth.com, attempt 1
+2024-09-28 15:12:52,631 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/hristo-kanchev HTTP/11" 200 None
+2024-09-28 15:12:52,980 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/taneliang HTTP/11" 200 None
+2024-09-28 15:12:53,341 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/clemmy HTTP/11" 200 None
+2024-09-28 15:12:53,693 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/andreypopp HTTP/11" 200 None
+2024-09-28 15:12:54,044 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/wincent HTTP/11" 200 None
+2024-09-28 15:12:54,389 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/puradox HTTP/11" 200 None
+2024-09-28 15:12:54,741 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/SanderSpies HTTP/11" 200 None
+2024-09-28 15:12:55,080 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mattcarrollcode HTTP/11" 200 None
+2024-09-28 15:12:55,431 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jgebhardt HTTP/11" 200 None
+2024-09-28 15:12:55,802 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/zertosh HTTP/11" 200 None
+2024-09-28 15:12:56,146 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sun1one HTTP/11" 200 None
+2024-09-28 15:12:56,491 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/behnammodi HTTP/11" 200 None
+2024-09-28 15:12:56,852 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/camsong HTTP/11" 200 None
+2024-09-28 15:12:57,201 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jbonta HTTP/11" 200 None
+2024-09-28 15:12:57,549 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/dmytrorykun HTTP/11" 200 None
+2024-09-28 15:12:57,895 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ianobermiller HTTP/11" 200 None
+2024-09-28 15:12:57,897 - email_service - DEBUG - Resolving DNS MX records for obermillers.com
+2024-09-28 15:12:57,942 - email_service - DEBUG - Attempting WHOIS lookup for obermillers.com
+2024-09-28 15:12:57,946 - email_service - DEBUG - Attempting WHOIS lookup for obermillers.com, attempt 1
+2024-09-28 15:12:58,670 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/hzoo HTTP/11" 200 None
+2024-09-28 15:12:59,015 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/RaitoBezarius HTTP/11" 200 None
+2024-09-28 15:12:59,351 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/javache HTTP/11" 200 None
+2024-09-28 15:12:59,700 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/hramos HTTP/11" 200 None
+2024-09-28 15:13:00,045 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/onionymous HTTP/11" 200 None
+2024-09-28 15:13:00,396 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/rbalicki2 HTTP/11" 200 None
+2024-09-28 15:13:00,740 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/KonstHardy HTTP/11" 200 None
+2024-09-28 15:13:01,109 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/DenrizSusam HTTP/11" 200 None
+2024-09-28 15:13:01,462 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/andrewdavey HTTP/11" 200 None
+2024-09-28 15:13:01,464 - email_service - DEBUG - Resolving DNS MX records for equin.co.uk
+2024-09-28 15:13:01,481 - email_service - DEBUG - Attempting WHOIS lookup for equin.co.uk
+2024-09-28 15:13:01,481 - email_service - DEBUG - Attempting WHOIS lookup for equin.co.uk, attempt 1
+2024-09-28 15:13:02,119 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bubucuo HTTP/11" 200 None
+2024-09-28 15:13:02,472 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Huxpro HTTP/11" 200 None
+2024-09-28 15:13:02,821 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/dittos HTTP/11" 200 None
+2024-09-28 15:13:03,168 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Pouja HTTP/11" 200 None
+2024-09-28 15:13:03,606 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=5 HTTP/11" 200 None
+2024-09-28 15:13:03,964 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/pedronauck HTTP/11" 200 None
+2024-09-28 15:13:04,316 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nikeee HTTP/11" 200 None
+2024-09-28 15:13:04,652 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/NMinhNguyen HTTP/11" 200 None
+2024-09-28 15:13:04,997 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bripkens HTTP/11" 200 None
+2024-09-28 15:13:05,348 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bspaulding HTTP/11" 200 None
+2024-09-28 15:13:05,701 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/awwright HTTP/11" 200 None
+2024-09-28 15:13:05,702 - email_service - DEBUG - Resolving DNS MX records for bzfx.net
+2024-09-28 15:13:05,757 - email_service - DEBUG - Attempting WHOIS lookup for bzfx.net
+2024-09-28 15:13:05,758 - email_service - DEBUG - Attempting WHOIS lookup for bzfx.net, attempt 1
+2024-09-28 15:13:06,403 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/piranha HTTP/11" 200 None
+2024-09-28 15:13:06,404 - email_service - DEBUG - Resolving DNS MX records for solovyov.net
+2024-09-28 15:13:06,428 - email_service - DEBUG - Attempting WHOIS lookup for solovyov.net
+2024-09-28 15:13:06,429 - email_service - DEBUG - Attempting WHOIS lookup for solovyov.net, attempt 1
+2024-09-28 15:13:06,882 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/brigand HTTP/11" 200 None
+2024-09-28 15:13:07,224 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jontewks HTTP/11" 200 None
+2024-09-28 15:13:07,225 - email_service - DEBUG - Resolving DNS MX records for apollo.io
+2024-09-28 15:13:07,248 - email_service - DEBUG - Attempting WHOIS lookup for apollo.io
+2024-09-28 15:13:07,248 - email_service - DEBUG - Attempting WHOIS lookup for apollo.io, attempt 1
+2024-09-28 15:13:07,791 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/lrowe HTTP/11" 200 None
+2024-09-28 15:13:08,147 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/lyip1992 HTTP/11" 200 None
+2024-09-28 15:13:08,495 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mmarkelov HTTP/11" 200 None
+2024-09-28 15:13:08,846 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/makky3939 HTTP/11" 200 None
+2024-09-28 15:13:09,201 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mzabriskie HTTP/11" 200 None
+2024-09-28 15:13:09,554 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/matthewwithanm HTTP/11" 200 None
+2024-09-28 15:13:09,554 - email_service - DEBUG - Resolving DNS MX records for tthewwithanm.com
+2024-09-28 15:13:09,570 - email_service - DEBUG - Attempting WHOIS lookup for tthewwithanm.com
+2024-09-28 15:13:09,571 - email_service - DEBUG - Attempting WHOIS lookup for tthewwithanm.com, attempt 1
+2024-09-28 15:13:10,889 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mxstbr HTTP/11" 200 None
+2024-09-28 15:13:10,891 - email_service - DEBUG - Resolving DNS MX records for mxstbr.com
+2024-09-28 15:13:10,941 - email_service - DEBUG - Attempting WHOIS lookup for mxstbr.com
+2024-09-28 15:13:10,942 - email_service - DEBUG - Attempting WHOIS lookup for mxstbr.com, attempt 1
+2024-09-28 15:13:14,783 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/dalinaum HTTP/11" 200 None
+2024-09-28 15:13:15,132 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mjul HTTP/11" 200 None
+2024-09-28 15:13:15,488 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/matthewjohnston4 HTTP/11" 200 None
+2024-09-28 15:13:15,845 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mertkahyaoglu HTTP/11" 200 None
+2024-09-28 15:13:16,200 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mitermayer HTTP/11" 200 None
+2024-09-28 15:13:16,552 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/orta HTTP/11" 200 None
+2024-09-28 15:13:16,552 - email_service - DEBUG - Resolving DNS MX records for orta.io
+2024-09-28 15:13:16,663 - email_service - DEBUG - Attempting WHOIS lookup for orta.io
+2024-09-28 15:13:16,663 - email_service - DEBUG - Attempting WHOIS lookup for orta.io, attempt 1
+2024-09-28 15:13:17,317 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ClimbsRocks HTTP/11" 200 None
+2024-09-28 15:13:17,668 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/rricard HTTP/11" 200 None
+2024-09-28 15:13:17,669 - email_service - DEBUG - Resolving DNS MX records for rricard.me
+2024-09-28 15:13:17,787 - email_service - DEBUG - Attempting WHOIS lookup for rricard.me
+2024-09-28 15:13:17,788 - email_service - DEBUG - Attempting WHOIS lookup for rricard.me, attempt 1
+2024-09-28 15:13:25,380 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/submetu HTTP/11" 200 None
+2024-09-28 15:13:25,733 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/vzaidman HTTP/11" 200 None
+2024-09-28 15:13:26,082 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ryota-murakami HTTP/11" 200 None
+2024-09-28 15:13:26,421 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bgirard HTTP/11" 200 None
+2024-09-28 15:13:26,779 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Jessidhia HTTP/11" 200 None
+2024-09-28 15:13:26,780 - email_service - DEBUG - Resolving DNS MX records for jessidhia.dev
+2024-09-28 15:13:26,840 - email_service - DEBUG - Attempting WHOIS lookup for jessidhia.dev
+2024-09-28 15:13:26,840 - email_service - DEBUG - Attempting WHOIS lookup for jessidhia.dev, attempt 1
+2024-09-28 15:13:27,737 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/akgupta0777 HTTP/11" 200 None
+2024-09-28 15:13:28,167 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=6 HTTP/11" 200 None
+2024-09-28 15:13:28,525 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/alexmckenley HTTP/11" 200 None
+2024-09-28 15:13:28,879 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/alexeyraspopov HTTP/11" 200 None
+2024-09-28 15:13:29,245 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/abhaynikam HTTP/11" 200 None
+2024-09-28 15:13:29,599 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/alunyov HTTP/11" 200 None
+2024-09-28 15:13:29,954 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/cyan33 HTTP/11" 200 None
+2024-09-28 15:13:30,357 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/clayallsopp HTTP/11" 200 None
+2024-09-28 15:13:30,705 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/aaronabramov HTTP/11" 200 None
+2024-09-28 15:13:31,073 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/eltociear HTTP/11" 200 None
+2024-09-28 15:13:31,425 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jfo84 HTTP/11" 200 None
+2024-09-28 15:13:31,769 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Jack-Works HTTP/11" 200 None
+2024-09-28 15:13:32,140 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/huozhi HTTP/11" 200 None
+2024-09-28 15:13:32,485 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jbaiter HTTP/11" 200 None
+2024-09-28 15:13:32,848 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/joshma HTTP/11" 200 None
+2024-09-28 15:13:33,188 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/julen HTTP/11" 200 None
+2024-09-28 15:13:33,550 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jeyraof HTTP/11" 200 None
+2024-09-28 15:13:33,900 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sahrens HTTP/11" 200 None
+2024-09-28 15:13:34,248 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/skiritsis HTTP/11" 200 None
+2024-09-28 15:13:34,590 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/misoguy HTTP/11" 200 None
+2024-09-28 15:13:34,933 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/robhrt7 HTTP/11" 200 None
+2024-09-28 15:13:35,280 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/seiffert HTTP/11" 200 None
+2024-09-28 15:13:35,281 - email_service - DEBUG - Resolving DNS MX records for seiffert.dev
+2024-09-28 15:13:35,301 - email_service - DEBUG - Attempting WHOIS lookup for seiffert.dev
+2024-09-28 15:13:35,302 - email_service - DEBUG - Attempting WHOIS lookup for seiffert.dev, attempt 1
+2024-09-28 15:13:35,763 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/wherestheguac HTTP/11" 200 None
+2024-09-28 15:13:36,106 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ngavalas HTTP/11" 200 None
+2024-09-28 15:13:36,460 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nateq314 HTTP/11" 200 None
+2024-09-28 15:13:36,820 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nmn HTTP/11" 200 None
+2024-09-28 15:13:37,199 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/AlmeroSteyn HTTP/11" 200 None
+2024-09-28 15:13:37,553 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/tbroadley HTTP/11" 200 None
+2024-09-28 15:13:37,896 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/troydemonbreun HTTP/11" 200 None
+2024-09-28 15:13:37,897 - email_service - DEBUG - Resolving DNS MX records for troyd.net
+2024-09-28 15:13:37,952 - email_service - DEBUG - Attempting WHOIS lookup for troyd.net
+2024-09-28 15:13:37,952 - email_service - DEBUG - Attempting WHOIS lookup for troyd.net, attempt 1
+2024-09-28 15:13:38,665 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/volkanunsal HTTP/11" 200 None
+2024-09-28 15:13:39,017 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/noyobo HTTP/11" 200 None
+2024-09-28 15:13:39,362 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/remixz HTTP/11" 200 None
+2024-09-28 15:13:39,363 - email_service - DEBUG - Resolving DNS MX records for bruggie.com
+2024-09-28 15:13:39,388 - email_service - DEBUG - Attempting WHOIS lookup for bruggie.com
+2024-09-28 15:13:39,388 - email_service - DEBUG - Attempting WHOIS lookup for bruggie.com, attempt 1
+2024-09-28 15:13:39,949 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=7 HTTP/11" 200 None
+2024-09-28 15:13:40,296 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/inokawa HTTP/11" 200 None
+2024-09-28 15:13:40,643 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mariodu HTTP/11" 200 None
+2024-09-28 15:13:40,987 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nutboltu HTTP/11" 200 None
+2024-09-28 15:13:41,330 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Vicachu42 HTTP/11" 200 None
+2024-09-28 15:13:41,675 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/yuyokk HTTP/11" 200 None
+2024-09-28 15:13:42,067 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/maciej-ka HTTP/11" 200 None
+2024-09-28 15:13:42,413 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/azich HTTP/11" 200 None
+2024-09-28 15:13:42,764 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/af HTTP/11" 200 None
+2024-09-28 15:13:43,123 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/armujahid HTTP/11" 200 None
+2024-09-28 15:13:43,467 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/omarsy HTTP/11" 200 None
+2024-09-28 15:13:43,816 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/avanderhoorn HTTP/11" 200 None
+2024-09-28 15:13:44,163 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bernard-lin HTTP/11" 200 None
+2024-09-28 15:13:44,509 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/brianreavis HTTP/11" 200 None
+2024-09-28 15:13:44,510 - email_service - DEBUG - Resolving DNS MX records for thirdroute.com
+2024-09-28 15:13:44,677 - email_service - DEBUG - Attempting WHOIS lookup for thirdroute.com
+2024-09-28 15:13:44,677 - email_service - DEBUG - Attempting WHOIS lookup for thirdroute.com, attempt 1
+2024-09-28 15:13:45,232 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/gasi HTTP/11" 200 None
+2024-09-28 15:13:45,233 - email_service - DEBUG - Resolving DNS MX records for gasienica.ch
+2024-09-28 15:13:45,250 - email_service - DEBUG - Attempting WHOIS lookup for gasienica.ch
+2024-09-28 15:13:45,251 - email_service - DEBUG - Attempting WHOIS lookup for gasienica.ch, attempt 1
+2024-09-28 15:13:45,821 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/hejld HTTP/11" 200 None
+2024-09-28 15:13:45,823 - email_service - DEBUG - Resolving DNS MX records for productboard.com
+2024-09-28 15:13:45,840 - email_service - DEBUG - Attempting WHOIS lookup for productboard.com
+2024-09-28 15:13:45,840 - email_service - DEBUG - Attempting WHOIS lookup for productboard.com, attempt 1
+2024-09-28 15:13:46,242 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/glenjamin HTTP/11" 200 None
+2024-09-28 15:13:46,245 - email_service - DEBUG - Resolving DNS MX records for stainlessed.co.uk
+2024-09-28 15:13:46,299 - email_service - DEBUG - Attempting WHOIS lookup for stainlessed.co.uk
+2024-09-28 15:13:46,299 - email_service - DEBUG - Attempting WHOIS lookup for stainlessed.co.uk, attempt 1
+2024-09-28 15:13:46,858 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/thymikee HTTP/11" 200 None
+2024-09-28 15:13:47,203 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mtharrison HTTP/11" 200 None
+2024-09-28 15:13:47,555 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mfunkie HTTP/11" 200 None
+2024-09-28 15:13:47,898 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/markerikson HTTP/11" 200 None
+2024-09-28 15:13:48,239 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ManasJayanth HTTP/11" 200 None
+2024-09-28 15:13:48,587 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/KyleAMathews HTTP/11" 200 None
+2024-09-28 15:13:48,931 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/monkindey HTTP/11" 200 None
+2024-09-28 15:13:49,274 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/xjlim HTTP/11" 200 None
+2024-09-28 15:13:49,617 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jeffreylin HTTP/11" 200 None
+2024-09-28 15:13:49,974 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/jasonwilliams HTTP/11" 200 None
+2024-09-28 15:13:50,330 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/IDrissAitHafid HTTP/11" 200 None
+2024-09-28 15:13:50,680 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/kchia HTTP/11" 200 None
+2024-09-28 15:13:51,024 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/watadarkstar HTTP/11" 200 None
+2024-09-28 15:13:51,391 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/pieterv HTTP/11" 200 None
+2024-09-28 15:13:51,392 - email_service - DEBUG - Resolving DNS MX records for pieter.io
+2024-09-28 15:13:51,424 - email_service - DEBUG - Attempting WHOIS lookup for pieter.io
+2024-09-28 15:13:51,425 - email_service - DEBUG - Attempting WHOIS lookup for pieter.io, attempt 1
+2024-09-28 15:13:52,457 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=8 HTTP/11" 200 None
+2024-09-28 15:13:52,818 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/passy HTTP/11" 200 None
+2024-09-28 15:13:53,164 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ning-github HTTP/11" 200 None
+2024-09-28 15:13:53,505 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nikolas HTTP/11" 200 None
+2024-09-28 15:13:53,506 - email_service - DEBUG - Resolving DNS MX records for gnu.org
+2024-09-28 15:13:53,678 - email_service - DEBUG - Attempting WHOIS lookup for gnu.org
+2024-09-28 15:13:53,679 - email_service - DEBUG - Attempting WHOIS lookup for gnu.org, attempt 1
+2024-09-28 15:13:54,689 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/nick-thompson HTTP/11" 200 None
+2024-09-28 15:13:55,056 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/enaqx HTTP/11" 200 None
+2024-09-28 15:13:55,060 - email_service - DEBUG - Resolving DNS MX records for slicketty.com
+2024-09-28 15:13:55,100 - email_service - DEBUG - Attempting WHOIS lookup for slicketty.com
+2024-09-28 15:13:55,100 - email_service - DEBUG - Attempting WHOIS lookup for slicketty.com, attempt 1
+2024-09-28 15:13:56,686 - email_service - ERROR - DNS MX lookup failed for slicketty.com: The DNS response does not contain an answer to the question: slicketty.com. IN MX
+2024-09-28 15:13:56,822 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/millermedeiros HTTP/11" 200 None
+2024-09-28 15:13:56,823 - email_service - DEBUG - Resolving DNS MX records for millermedeiros.com
+2024-09-28 15:13:56,873 - email_service - DEBUG - Attempting WHOIS lookup for millermedeiros.com
+2024-09-28 15:13:56,874 - email_service - DEBUG - Attempting WHOIS lookup for millermedeiros.com, attempt 1
+2024-09-28 15:13:57,944 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mihaip HTTP/11" 200 None
+2024-09-28 15:13:58,317 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/MichaelDeBoey HTTP/11" 200 None
+2024-09-28 15:13:58,653 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/xixixao HTTP/11" 200 None
+2024-09-28 15:13:58,654 - email_service - DEBUG - Resolving DNS MX records for seznam.cz
+2024-09-28 15:13:58,797 - email_service - DEBUG - Attempting WHOIS lookup for seznam.cz
+2024-09-28 15:13:58,797 - email_service - DEBUG - Attempting WHOIS lookup for seznam.cz, attempt 1
+2024-09-28 15:13:59,219 - email_service - ERROR - WHOIS lookup failed for seznam.cz at attempt 1: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:14:01,222 - email_service - DEBUG - Attempting WHOIS lookup for seznam.cz, attempt 2
+2024-09-28 15:14:01,631 - email_service - ERROR - WHOIS lookup failed for seznam.cz at attempt 2: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:14:03,633 - email_service - DEBUG - Attempting WHOIS lookup for seznam.cz, attempt 3
+2024-09-28 15:14:04,050 - email_service - ERROR - WHOIS lookup failed for seznam.cz at attempt 3: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:14:06,320 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mridgway HTTP/11" 200 None
+2024-09-28 15:14:06,667 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/arcanis HTTP/11" 200 None
+2024-09-28 15:14:07,022 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/matiassingers HTTP/11" 200 None
+2024-09-28 15:14:07,022 - email_service - DEBUG - Resolving DNS MX records for matiassingers.com
+2024-09-28 15:14:07,412 - email_service - DEBUG - Attempting WHOIS lookup for matiassingers.com
+2024-09-28 15:14:07,413 - email_service - DEBUG - Attempting WHOIS lookup for matiassingers.com, attempt 1
+2024-09-28 15:14:09,096 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mathieumg HTTP/11" 200 None
+2024-09-28 15:14:09,454 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/markijbema HTTP/11" 200 None
+2024-09-28 15:14:09,805 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/lipis HTTP/11" 200 None
+2024-09-28 15:14:10,152 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/zwhitchcox HTTP/11" 200 None
+2024-09-28 15:14:10,500 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/hkal HTTP/11" 200 None
+2024-09-28 15:14:10,844 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/XuefengWu HTTP/11" 200 None
+2024-09-28 15:14:11,185 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/TrickyPi HTTP/11" 200 None
+2024-09-28 15:14:11,573 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/madeinfree HTTP/11" 200 None
+2024-09-28 15:14:11,919 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/vipulnsward HTTP/11" 200 None
+2024-09-28 15:14:11,919 - email_service - DEBUG - Resolving DNS MX records for saeloun.com
+2024-09-28 15:14:11,942 - email_service - DEBUG - Attempting WHOIS lookup for saeloun.com
+2024-09-28 15:14:11,942 - email_service - DEBUG - Attempting WHOIS lookup for saeloun.com, attempt 1
+2024-09-28 15:14:14,720 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/fson HTTP/11" 200 None
+2024-09-28 15:14:15,068 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Yeti-or HTTP/11" 200 None
+2024-09-28 15:14:15,439 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/trevorsmith HTTP/11" 200 None
+2024-09-28 15:14:15,826 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/neojski HTTP/11" 200 None
+2024-09-28 15:14:16,176 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/styfle HTTP/11" 200 None
+2024-09-28 15:14:16,514 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/tsriram HTTP/11" 200 None
+2024-09-28 15:14:16,857 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sota000 HTTP/11" 200 None
+2024-09-28 15:14:17,259 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/shaneosullivan HTTP/11" 200 None
+2024-09-28 15:14:17,626 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/SamChou19815 HTTP/11" 200 None
+2024-09-28 15:14:17,628 - email_service - DEBUG - Resolving DNS MX records for developersam.com
+2024-09-28 15:14:17,683 - email_service - DEBUG - Attempting WHOIS lookup for developersam.com
+2024-09-28 15:14:17,684 - email_service - DEBUG - Attempting WHOIS lookup for developersam.com, attempt 1
+2024-09-28 15:14:18,235 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repositories/10270250/contributors?page=9 HTTP/11" 200 None
+2024-09-28 15:14:18,600 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/sktguha HTTP/11" 200 None
+2024-09-28 15:14:18,967 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/rwoodnz HTTP/11" 200 None
+2024-09-28 15:14:19,323 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/piperchester HTTP/11" 200 None
+2024-09-28 15:14:19,707 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/learosema HTTP/11" 200 None
+2024-09-28 15:14:20,049 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ericnakagawa HTTP/11" 200 None
+2024-09-28 15:14:20,401 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/edvinerikson HTTP/11" 200 None
+2024-09-28 15:14:20,749 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/EdmondChuiHW HTTP/11" 200 None
+2024-09-28 15:14:21,097 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/dmatteo HTTP/11" 200 None
+2024-09-28 15:14:21,435 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/mitenka HTTP/11" 200 None
+2024-09-28 15:14:21,779 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/diegomura HTTP/11" 200 None
+2024-09-28 15:14:22,164 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/conorhastings HTTP/11" 200 None
+2024-09-28 15:14:22,518 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/CarlMungazi HTTP/11" 200 None
+2024-09-28 15:14:22,862 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bowen31337 HTTP/11" 200 None
+2024-09-28 15:14:23,211 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/bobeagan HTTP/11" 200 None
+2024-09-28 15:14:23,212 - email_service - DEBUG - Resolving DNS MX records for synapsestudios.com
+2024-09-28 15:14:23,248 - email_service - DEBUG - Attempting WHOIS lookup for synapsestudios.com
+2024-09-28 15:14:23,248 - email_service - DEBUG - Attempting WHOIS lookup for synapsestudios.com, attempt 1
+2024-09-28 15:14:23,759 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/ariabuckles HTTP/11" 200 None
+2024-09-28 15:14:23,760 - email_service - DEBUG - Resolving DNS MX records for toole1.com
+2024-09-28 15:14:23,815 - email_service - DEBUG - Attempting WHOIS lookup for toole1.com
+2024-09-28 15:14:23,815 - email_service - DEBUG - Attempting WHOIS lookup for toole1.com, attempt 1
+2024-09-28 15:14:25,044 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/anushreesubramani HTTP/11" 200 None
+2024-09-28 15:14:25,404 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/antsmartian HTTP/11" 200 None
+2024-09-28 15:14:25,748 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/Tom910 HTTP/11" 200 None
+2024-09-28 15:14:26,102 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/alextsg HTTP/11" 200 None
+2024-09-28 15:14:26,102 - email_service - DEBUG - Resolving DNS MX records for vmware.com
+2024-09-28 15:14:26,120 - email_service - DEBUG - Attempting WHOIS lookup for vmware.com
+2024-09-28 15:14:26,120 - email_service - DEBUG - Attempting WHOIS lookup for vmware.com, attempt 1
+2024-09-28 15:14:26,521 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/alexzherdev HTTP/11" 200 None
+2024-09-28 15:14:26,862 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/alexpien HTTP/11" 200 None
+2024-09-28 15:14:27,214 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/accordeiro HTTP/11" 200 None
+2024-09-28 15:14:27,561 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/adelevie HTTP/11" 200 None
+2024-09-28 15:14:27,914 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/wtlin1228 HTTP/11" 200 None
+2024-09-28 15:14:28,286 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/kunukn HTTP/11" 200 None
+2024-09-28 15:14:28,636 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /users/thekevlau HTTP/11" 200 None
+2024-09-28 15:14:28,637 - email_service - DEBUG - Resolving DNS MX records for kevinlau.me
+2024-09-28 15:14:28,682 - email_service - DEBUG - Attempting WHOIS lookup for kevinlau.me
+2024-09-28 15:14:28,682 - email_service - DEBUG - Attempting WHOIS lookup for kevinlau.me, attempt 1
+2024-09-28 15:16:06,216 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-09-28 15:16:06,582 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/facebook/react HTTP/11" 200 None
+2024-09-28 15:17:57,346 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:18:00,774 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:18:01,152 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:19:05,031 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:19:08,483 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:19:08,869 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:22:02,601 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:22:06,068 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:22:06,517 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:26:12,036 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:26:15,550 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:26:15,990 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:27:27,071 - ERROR - DNS MX lookup failed for slicketty.com: The DNS response does not contain an answer to the question: slicketty.com. IN MX
+2024-09-28 15:27:28,917 - ERROR - DNS MX lookup failed for slicketty.com: The DNS response does not contain an answer to the question: slicketty.com. IN MX
+2024-09-28 15:28:42,024 - ERROR - [whois] - Error trying to connect to socket: closing socket - 
+2024-09-28 15:28:42,024 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:28:45,442 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:28:45,777 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:33:22,441 - ERROR - [third-party] - Error trying to connect to socket: closing socket - 
+2024-09-28 15:33:22,441 - ERROR - Error trying to connect to socket: closing socket - 
+2024-09-28 15:33:25,910 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:33:26,302 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:36:48,770 - ERROR - [third-party] - Error trying to connect to socket: closing socket - 
+2024-09-28 15:36:52,261 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:36:52,813 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:38:12,450 - ERROR - DNS MX lookup failed for slicketty.com: The DNS response does not contain an answer to the question: slicketty.com. IN MX
+2024-09-28 15:38:24,917 - ERROR - WHOIS lookup failed for seznam.cz at attempt 1: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:38:27,330 - ERROR - WHOIS lookup failed for seznam.cz at attempt 2: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:38:29,758 - ERROR - WHOIS lookup failed for seznam.cz at attempt 3: Your connection limit exceeded. Please slow down and try again later.
+
+2024-09-28 15:39:39,759 - ERROR - [third-party] - Error trying to connect to socket: closing socket - [Errno 61] Connection refused
+2024-09-28 15:39:48,418 - ERROR - [third-party] - Error trying to connect to socket: closing socket - [Errno 61] Connection refused
+2024-09-28 15:39:51,120 - ERROR - DNS MX lookup failed for drdelambre.com: The DNS query name does not exist: drdelambre.com.
+2024-09-28 15:39:51,310 - ERROR - WHOIS lookup failed for drdelambre.com at attempt 1: No match for "DRDELAMBRE.COM".
+>>> Last update of whois database: 2024-09-28T19:39:37Z <<<
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+
+2024-09-28 15:39:53,503 - ERROR - WHOIS lookup failed for drdelambre.com at attempt 2: No match for "DRDELAMBRE.COM".
+>>> Last update of whois database: 2024-09-28T19:39:37Z <<<
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+
+2024-09-28 15:39:55,708 - ERROR - WHOIS lookup failed for drdelambre.com at attempt 3: No match for "DRDELAMBRE.COM".
+>>> Last update of whois database: 2024-09-28T19:39:37Z <<<
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+
+2024-09-28 15:39:57,759 - ERROR - DNS MX lookup failed for drdelambre.com: The DNS query name does not exist: drdelambre.com.
+2024-09-28 15:44:05,051 - ERROR - [third-party] - Error trying to connect to socket: closing socket - 
+2024-09-28 15:44:08,471 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:44:08,813 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:47:46,281 - ERROR - [third-party] - Error trying to connect to socket: closing socket - 
+2024-09-28 15:47:49,750 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:47:50,138 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:49:31,280 - ERROR - [third-party] - Error trying to connect to socket: closing socket - 
+2024-09-28 15:49:34,879 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 15:49:35,282 - ERROR - DNS MX lookup failed for simek.dev: The DNS response does not contain an answer to the question: simek.dev. IN MX
+2024-09-28 17:37:10,145 - INFO - GitHub API Rate Limit:
+2024-09-28 17:37:10,146 - INFO -   Limit: 5000
+2024-09-28 17:37:10,146 - INFO -   Remaining: 4006
+2024-09-28 17:37:10,146 - INFO -   Reset Time: 2024-09-28 21:51:34+00:00
+2024-09-28 17:37:27,359 - INFO - GitHub API Rate Limit:
+2024-09-28 17:37:27,360 - INFO -   Limit: 5000
+2024-09-28 17:37:27,360 - INFO -   Remaining: 4006
+2024-09-28 17:37:27,360 - INFO -   Reset Time: 2024-09-28 21:51:34+00:00
+2024-09-28 17:38:46,374 - INFO - GitHub API Rate Limit:
+2024-09-28 17:38:46,374 - INFO -   Limit: 5000
+2024-09-28 17:38:46,374 - INFO -   Remaining: 4006
+2024-09-28 17:38:46,374 - INFO -   Reset Time: 2024-09-28 21:51:34+00:00
+2024-09-28 17:54:02,261 - INFO - Request GET /repositories/10270250/commits?author=acdlite&page=32 failed with 403: Forbidden
+2024-09-28 17:54:02,262 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,323 - INFO - Request GET /repos/facebook/react/commits/c604b69973c40410384fe2ca70b34325c67cd22d failed with 403: Forbidden
+2024-09-28 17:54:02,323 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,359 - INFO - Request GET /repos/facebook/react/commits/66bfee6543fe007048a751f7c1c8db26ed3fcdf5 failed with 403: Forbidden
+2024-09-28 17:54:02,359 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,409 - INFO - Request GET /repositories/10270250/commits?author=zpao&page=29 failed with 403: Forbidden
+2024-09-28 17:54:02,409 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,410 - WARNING - Connection pool is full, discarding connection: api.github.com. Connection pool size: 10
+2024-09-28 17:54:02,479 - INFO - Request GET /repos/facebook/react/commits/f820f5a8b6c8b106ba3756f3e60a5a4017eb5080 failed with 403: Forbidden
+2024-09-28 17:54:02,480 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,560 - INFO - Request GET /repos/facebook/react/commits/b28bb19e44d4624ffda33ff5f3a7a2dcce291635 failed with 403: Forbidden
+2024-09-28 17:54:02,560 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,574 - INFO - Request GET /repos/facebook/react/commits/9f0508fcf47026cdc58e49a15e5865b66a24480f failed with 403: Forbidden
+2024-09-28 17:54:02,575 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,581 - INFO - Request GET /repositories/10270250/commits?author=gaearon&page=31 failed with 403: Forbidden
+2024-09-28 17:54:02,581 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,646 - INFO - Request GET /repositories/10270250/commits?author=sebmarkbage&page=35 failed with 403: Forbidden
+2024-09-28 17:54:02,647 - INFO - Retrying after 60 seconds
+2024-09-28 17:54:02,684 - INFO - Request GET /repositories/10270250/commits?author=sophiebits&page=29 failed with 403: Forbidden
+2024-09-28 17:54:02,684 - INFO - Retrying after 60 seconds
+2024-09-28 17:59:40,848 - INFO - Request GET /repos/facebook/react/commits/5fc84efacce66272928815e8a6c83a341af9160e failed with 403: Forbidden
+2024-09-28 17:59:40,851 - INFO - Retrying after 60 seconds
+2024-09-28 17:59:40,964 - INFO - Request GET /repos/facebook/react/commits/4db3ff6c1ac092676dffc2251f5dec908eca9c74 failed with 403: Forbidden
+2024-09-28 17:59:40,964 - INFO - Retrying after 60 seconds
+2024-09-28 17:59:41,080 - INFO - Request GET /repos/facebook/react/commits/9690b9ad749c30eab1900c99e7c25a7ed7e1d9b7 failed with 403: Forbidden
+2024-09-28 17:59:41,081 - INFO - Retrying after 60 seconds
+2024-09-28 17:59:41,086 - INFO - Request GET /repos/facebook/react/commits/fa2f82addc7c817892c482792f56a35277e8b75a failed with 403: Forbidden
+2024-09-28 17:59:41,089 - INFO - Retrying after 60 seconds
+2024-09-28 17:59:41,121 - INFO - Request GET /repos/facebook/react/commits/af28c5cd737a026110feafc329e664cd585a850f failed with 403: Forbidden
+2024-09-28 17:59:41,121 - INFO - Retrying after 60 seconds
+2024-09-28 18:01:33,222 - INFO - Request GET /repos/facebook/react/commits/8791325db03725ef4801fc58b35a3bb4486a8904 failed with 403: Forbidden
+2024-09-28 18:01:33,223 - INFO - Retrying after 60 seconds
+2024-09-28 18:01:33,474 - INFO - Request GET /repos/facebook/react/commits/270229f0c337dc652f07ef27d2254bb922bfaa9e failed with 403: Forbidden
+2024-09-28 18:01:33,474 - INFO - Retrying after 60 seconds
+2024-09-28 18:01:33,521 - INFO - Request GET /repos/facebook/react/commits/0a008044945a9dcdc9543575a8ba90b1aaacf56c failed with 403: Forbidden
+2024-09-28 18:01:33,521 - INFO - Retrying after 60 seconds
+2024-09-28 18:01:33,597 - INFO - Request GET /repos/facebook/react/commits/2fb74cd1acdc785aa8b2560fb892f316a992dc2d failed with 403: Forbidden
+2024-09-28 18:01:33,597 - INFO - Retrying after 60 seconds
+2024-09-28 18:01:33,742 - INFO - Request GET /repos/facebook/react/commits/f0aafa1a7e3338871f60ac3ea8c1c92b8671520c failed with 403: Forbidden
+2024-09-28 18:01:33,743 - INFO - Retrying after 60 seconds
+2024-09-28 18:03:25,462 - INFO - Request GET /repositories/10270250/commits?author=gaearon&page=24 failed with 403: Forbidden
+2024-09-28 18:03:25,466 - INFO - Retrying after 60 seconds
+2024-09-28 18:03:25,513 - INFO - Request GET /repositories/10270250/commits?author=zpao&page=21 failed with 403: Forbidden
+2024-09-28 18:03:25,513 - INFO - Retrying after 60 seconds
+2024-09-28 18:03:25,618 - INFO - Request GET /repositories/10270250/commits?author=acdlite&page=25 failed with 403: Forbidden
+2024-09-28 18:03:25,619 - INFO - Retrying after 60 seconds
+2024-09-28 18:03:25,621 - INFO - Request GET /repositories/10270250/commits?author=sophiebits&page=21 failed with 403: Forbidden
+2024-09-28 18:03:25,621 - INFO - Retrying after 60 seconds
+2024-09-28 18:03:25,815 - INFO - Request GET /repositories/10270250/commits?author=sebmarkbage&page=27 failed with 403: Forbidden
+2024-09-28 18:03:25,815 - INFO - Retrying after 60 seconds
+2024-09-28 18:18:11,231 - INFO - Request GET /repos/facebook/react/commits?author=trueadm failed with 403: Forbidden
+2024-09-28 18:18:11,233 - INFO - Retrying after 60 seconds
+2024-09-28 18:18:11,361 - INFO - Request GET /repositories/10270250/commits?author=josephsavona&page=12 failed with 403: Forbidden
+2024-09-28 18:18:11,361 - INFO - Retrying after 60 seconds
+2024-09-28 18:18:11,398 - INFO - Request GET /repositories/10270250/commits?author=zpao&page=50 failed with 403: Forbidden
+2024-09-28 18:18:11,399 - INFO - Retrying after 60 seconds
+2024-09-28 18:18:11,594 - INFO - Request GET /repositories/10270250/commits?author=poteto&page=11 failed with 403: Forbidden
+2024-09-28 18:18:11,606 - INFO - Retrying after 60 seconds
+2024-09-28 18:18:11,628 - INFO - Request GET /repositories/10270250/commits?author=jimfb&page=6 failed with 403: Forbidden
+2024-09-28 18:18:11,628 - INFO - Retrying after 60 seconds
+2024-09-28 18:19:47,395 - INFO - Request GET /repos/facebook/react/commits?author=DarkScorpion failed with 403: Forbidden
+2024-09-28 18:19:47,397 - INFO - Retrying after 60 seconds
+2024-09-28 18:19:47,617 - INFO - Request GET /repos/facebook/react/commits?author=yiminghe failed with 403: Forbidden
+2024-09-28 18:19:47,618 - INFO - Retrying after 60 seconds
+2024-09-28 18:19:47,620 - INFO - Request GET /repos/facebook/react/commits?author=jddxf failed with 403: Forbidden
+2024-09-28 18:19:47,620 - INFO - Retrying after 60 seconds
+2024-09-28 18:19:47,735 - INFO - Request GET /repos/facebook/react/commits?author=rickbeerendonk failed with 403: Forbidden
+2024-09-28 18:19:47,736 - INFO - Retrying after 60 seconds
+2024-09-28 18:19:47,772 - INFO - Request GET /repos/facebook/react/commits?author=raunofreiberg failed with 403: Forbidden
+2024-09-28 18:19:47,772 - INFO - Retrying after 60 seconds
+2024-09-28 18:21:19,735 - INFO - Request GET /repos/facebook/react/commits?author=jeffchan failed with 403: Forbidden
+2024-09-28 18:21:19,735 - INFO - Retrying after 60 seconds
+2024-09-28 18:21:20,004 - INFO - Request GET /repos/facebook/react/commits?author=josepharhar failed with 403: Forbidden
+2024-09-28 18:21:20,004 - INFO - Retrying after 60 seconds
+2024-09-28 18:21:20,048 - INFO - Request GET /repos/facebook/react/commits?author=jdalton failed with 403: Forbidden
+2024-09-28 18:21:20,048 - INFO - Retrying after 60 seconds
+2024-09-28 18:21:20,163 - INFO - Request GET /repos/facebook/react/commits?author=jonscottclark failed with 403: Forbidden
+2024-09-28 18:21:20,163 - INFO - Retrying after 60 seconds
+2024-09-28 18:21:20,320 - INFO - Request GET /repos/facebook/react/commits?author=jbrown215 failed with 403: Forbidden
+2024-09-28 18:21:20,320 - INFO - Retrying after 60 seconds
+2024-09-28 18:24:16,724 - INFO - Request GET /repositories/10270250/commits?author=josephsavona&page=24 failed with 403: Forbidden
+2024-09-28 18:24:16,725 - INFO - Retrying after 60 seconds
+2024-09-28 18:24:16,969 - INFO - Request GET /repositories/10270250/commits?author=trueadm&page=10 failed with 403: Forbidden
+2024-09-28 18:24:16,969 - INFO - Retrying after 60 seconds
+2024-09-28 18:24:17,023 - INFO - Request GET /repositories/10270250/commits?author=zpao&page=58 failed with 403: Forbidden
+2024-09-28 18:24:17,024 - INFO - Retrying after 60 seconds
+2024-09-28 18:24:17,153 - INFO - Request GET /repositories/10270250/commits?author=gsathya&page=3 failed with 403: Forbidden
+2024-09-28 18:24:17,154 - INFO - Retrying after 60 seconds
+2024-09-28 18:24:17,204 - INFO - Request GET /repositories/10270250/commits?author=jimfb&page=16 failed with 403: Forbidden
+2024-09-28 18:24:17,204 - INFO - Retrying after 60 seconds
+2024-09-28 18:25:51,913 - INFO - Request GET /repos/facebook/react/commits?author=nikeee failed with 403: Forbidden
+2024-09-28 18:25:51,914 - INFO - Retrying after 60 seconds
+2024-09-28 18:25:51,969 - INFO - Request GET /repos/facebook/react/commits?author=NMinhNguyen failed with 403: Forbidden
+2024-09-28 18:25:51,969 - INFO - Retrying after 60 seconds
+2024-09-28 18:25:52,070 - INFO - Request GET /repos/facebook/react/commits?author=bripkens failed with 403: Forbidden
+2024-09-28 18:25:52,071 - INFO - Retrying after 60 seconds
+2024-09-28 18:25:52,235 - INFO - Request GET /repos/facebook/react/commits?author=bspaulding failed with 403: Forbidden
+2024-09-28 18:25:52,235 - INFO - Retrying after 60 seconds
+2024-09-28 18:25:52,417 - INFO - Request GET /repos/facebook/react/commits?author=awwright failed with 403: Forbidden
+2024-09-28 18:25:52,417 - INFO - Retrying after 60 seconds
+2024-09-28 18:26:07,946 - INFO - Request GET /repos/facebook/react failed with 403: Forbidden
+2024-09-28 18:26:07,946 - INFO - Retrying after 60 seconds
