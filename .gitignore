@@ -20,5 +20,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Jython cache and packages
+.jython_cache/
+.jython_cache/packages/
+
 # MacOS system files
 .DS_Store
