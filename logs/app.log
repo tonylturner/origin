@@ -732,3 +732,4 @@ Registrars.
 2024-09-28 18:25:52,417 - INFO - Retrying after 60 seconds
 2024-09-28 18:26:07,946 - INFO - Request GET /repos/facebook/react failed with 403: Forbidden
 2024-09-28 18:26:07,946 - INFO - Retrying after 60 seconds
+2024-10-22 09:19:58,212 - ERROR - [third-party] - Error trying to connect to socket: closing socket - [Errno 8] nodename nor servname provided, or not known

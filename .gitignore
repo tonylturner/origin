@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
+# PDM-related files
 .pdm.toml
 .pdm-python
 .pdm-build/
@@ -11,7 +11,7 @@ __pycache__/
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 
-# Environments
+# Virtual environments
 .env
 .venv
 env/
@@ -20,5 +20,5 @@ ENV/
 env.bak/
 venv.bak/
 
-# Mac
+# MacOS system files
 .DS_Store
