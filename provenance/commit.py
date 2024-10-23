@@ -2,6 +2,7 @@ from collections import defaultdict
 import logging
 from tqdm import tqdm
 import github
+from services.github_client import github_client
 
 # Fetch commits for a contributor with error handling and rate limit checking
 def fetch_commits(repo, contributor, show_code=False):
@@ -81,3 +82,38 @@ def process_commit_details(repo, contributor, commits, show_code=False):
         "total_deletions": total_deletions,
         "commit_bursts": burst_days
     }
+
+# New top-level function for commit analysis
+def analyze_commits(owner, repo_name, contributor=None, show_code=False):
+    """
+    Analyze commits for a repository. Optionally filter commits by a specific contributor.
+
+    Args:
+        owner (str): Repository owner.
+        repo_name (str): Repository name.
+        contributor (str): Optional contributor to filter commits.
+        show_code (bool): Whether to show detailed file changes in the commits.
+    """
+    g = github_client()
+    print(f"Analyzing commits for {owner}/{repo_name}...")
+    
+    repo = g.get_repo(f"{owner}/{repo_name}")
+    
+    if contributor:
+        # Fetch and process commits for a specific contributor
+        commits = fetch_commits(repo, contributor, show_code)
+        if commits:
+            process_commit_details(repo, contributor, commits, show_code)
+        else:
+            print(f"No commits found for contributor: {contributor}")
+    else:
+        # Analyze commits for all contributors in the repo
+        contributors = repo.get_contributors()
+        for contributor in contributors:
+            commits = fetch_commits(repo, contributor, show_code)
+            if commits:
+                process_commit_details(repo, contributor, commits, show_code)
+            else:
+                print(f"No commits found for contributor: {contributor.login}")
+
+    print(f"Finished analyzing commits for {owner}/{repo_name}.")
