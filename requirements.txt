@@ -23,6 +23,7 @@ geographiclib==2.0
 geograpy3==0.2.7
 geojson==3.1.0
 geopy==2.4.1
+gnureadline==8.2.13
 html5lib-modern==1.2
 idna==3.10
 imagesize==1.4.1

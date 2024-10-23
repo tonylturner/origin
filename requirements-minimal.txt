@@ -1,0 +1,16 @@
+backports.tarfile==1.2.0
+cryptography==43.0.3
+dnspython==2.6.1
+geograpy3==0.2.7
+gnureadline==8.2.13
+importlib-metadata==8.0.0
+importlib-resources==6.4.0
+jaraco.collections==5.1.0
+lxml-html-clean==0.3.1
+pip-chill==1.0.3
+platformdirs==4.2.2
+pygithub==2.4.0
+python-dotenv==1.0.1
+python-whois==0.9.4
+rapidfuzz==3.10.0
+tomli==2.0.1
