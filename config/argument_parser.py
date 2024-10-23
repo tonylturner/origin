@@ -1,7 +1,6 @@
 import argparse
 import logging
 
-
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Fetch contributors, forks, and commit details from a GitHub repository using a URL."
@@ -12,7 +11,6 @@ def parse_args():
         "-p",
         "--repo-url",
         type=str,
-        required=True,
         help="GitHub repository URL (e.g., https://github.com/octocat/Hello-World)",
     )
 
@@ -59,7 +57,15 @@ def parse_args():
         help="Only return contributors from adversarial countries",
     )
 
+    # Force NLTK data update
+    parser.add_argument(
+        "--update-nltk",
+        action="store_true",
+        help="Force updating NLTK data models",
+    )
+
     return parser.parse_args()
+
 
 
 def configure_logging(verbosity):

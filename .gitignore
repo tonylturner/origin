@@ -26,3 +26,6 @@ venv.bak/
 
 # MacOS system files
 .DS_Store
+
+# data
+data/nltk/

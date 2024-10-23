@@ -1,0 +1,6 @@
+{
+    "profile_geo_weight": 0.4,
+    "email_geo_weight": 0.3,
+    "organization_geo_weight": 0.3
+  }
+  
