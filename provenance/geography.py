@@ -27,8 +27,12 @@ def debug_print(verbose, message):
 def normalize_country_name(country):
     """
     Normalize long-form country names to a short form (e.g., 'United States of America' to 'United States').
+    Handles NoneType by returning 'Unknown'.
     """
+    if country is None:
+        return "Unknown"
     return country_code_dict.get(country.upper(), country)
+
 
 def determine_final_location(
     email_geo, profile_geo, profile_geo_score, organization_geo="Unknown", verbose=False
@@ -89,10 +93,11 @@ def identify_geography(contributor, city_country_dict, verbose=False):
     """
     Identifies the geography of a contributor by analyzing their email, profile, and organization data.
     """
-    username = contributor.login
-    email = contributor.email or "N/A"
-    profile_geo = contributor.location or "Unknown"
-    organization = contributor.company or "Unknown"
+    # Accessing attributes from the NamedUser object
+    username = getattr(contributor, "login", "Unknown")
+    email = getattr(contributor, "email", "N/A")
+    profile_geo = getattr(contributor, "location", "Unknown")
+    organization = getattr(contributor, "company", "Unknown")
 
     email_geo = "Unknown"
     if email and "@" in email:
@@ -128,14 +133,17 @@ def identify_geography(contributor, city_country_dict, verbose=False):
     }
 
 
-def identify_geography(contributor, city_country_dict, verbose=False):
+
+# The second version of identify_geography is a fallback for contributors stored as dictionaries
+def identify_geography_dict(contributor_dict, city_country_dict, verbose=False):
     """
-    Identifies the geography of a contributor by analyzing their email, profile, and organization data.
+    Fallback version of identify_geography that works on contributors stored as dictionaries
+    instead of objects.
     """
-    username = contributor.login
-    email = contributor.email or "N/A"
-    profile_geo = contributor.location or "Unknown"
-    organization = contributor.company or "Unknown"
+    username = contributor_dict.get('login', 'Unknown')
+    email = contributor_dict.get('email', 'N/A')
+    profile_geo = contributor_dict.get('location', 'Unknown')
+    organization = contributor_dict.get('company', 'Unknown')
 
     email_geo = "Unknown"
     if email and "@" in email:

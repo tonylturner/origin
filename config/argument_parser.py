@@ -56,6 +56,13 @@ def parse_args():
         action="store_true",
         help="Only return contributors from adversarial countries",
     )
+    
+    parser.add_argument(
+        "--purge-logs", 
+        action="store_true", 
+        help="Purge the application log file before starting.",
+    )
+
 
     # Force NLTK data update
     parser.add_argument(

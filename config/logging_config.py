@@ -1,7 +1,21 @@
 import logging
+import os
+
+LOG_FILE_PATH = "logs/app.log"
 
 
 def setup_logging(args):
+    # Ensure the log directory exists
+    log_dir = os.path.dirname(LOG_FILE_PATH)
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+
+    # Purge log file if requested
+    if getattr(args, 'purge_logs', False):
+        with open(LOG_FILE_PATH, 'w'):
+            pass  # Truncate the log file
+        print(f"Log file {LOG_FILE_PATH} has been purged.")
+
     # Create the main logger
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG if args.verbose >= 3 else logging.INFO)
@@ -21,7 +35,7 @@ def setup_logging(args):
     console_handler.setFormatter(console_formatter)
 
     # Create file handler (with timestamps)
-    file_handler = logging.FileHandler("logs/app.log")
+    file_handler = logging.FileHandler(LOG_FILE_PATH)
     file_handler.setLevel(logging.DEBUG)
     file_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
     file_handler.setFormatter(file_formatter)
@@ -31,8 +45,7 @@ def setup_logging(args):
     logger.addHandler(file_handler)
 
     # Suppress logs from third-party libraries (like whois) from showing in the console
-    # Create a separate file handler for third-party logs
-    third_party_file_handler = logging.FileHandler("logs/app.log")
+    third_party_file_handler = logging.FileHandler(LOG_FILE_PATH)
     third_party_file_handler.setLevel(logging.ERROR)
     third_party_formatter = logging.Formatter(
         "%(asctime)s - %(levelname)s - [third-party] - %(message)s"

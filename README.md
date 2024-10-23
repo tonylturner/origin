@@ -80,8 +80,11 @@ Environment variables:
 
 Origin uses a .env file to store sensitive configuration such as the GitHub API token and LocationIQ API key. Create a .env file in the root of your project with the following content:
 
+```
 GITHUB_TOKEN=your_github_token_here
 LOCATIONIQ_API_KEY=your_locationiq_key_here
+NLTK_DATA=./data/nltk
+```
 
 License
 This project is licensed under the Apache 2.0 license
