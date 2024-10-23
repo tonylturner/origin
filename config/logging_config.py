@@ -11,8 +11,8 @@ def setup_logging(args):
         os.makedirs(log_dir)
 
     # Purge log file if requested
-    if getattr(args, 'purge_logs', False):
-        with open(LOG_FILE_PATH, 'w'):
+    if getattr(args, "purge_logs", False):
+        with open(LOG_FILE_PATH, "w"):
             pass  # Truncate the log file
         print(f"Log file {LOG_FILE_PATH} has been purged.")
 

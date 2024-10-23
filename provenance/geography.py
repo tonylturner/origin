@@ -19,6 +19,7 @@ profile_weight = weights.get("profile_geo_weight", 0.4)
 email_weight = weights.get("email_geo_weight", 0.3)
 organization_weight = weights.get("organization_geo_weight", 0.3)
 
+
 def debug_print(verbose, message):
     if verbose:
         print(message)
@@ -48,43 +49,70 @@ def determine_final_location(
     if normalized_profile_geo != "Unknown":
         total_checks += 1
         profile_contribution = (profile_geo_score / 100) * profile_weight * 100
-        confidence += profile_contribution  # Apply the weight from JSON for profile location
+        confidence += (
+            profile_contribution  # Apply the weight from JSON for profile location
+        )
 
-    debug_print(verbose, f"DEBUG: Normalized Profile Geo '{profile_geo}' to '{normalized_profile_geo}', contributing {profile_contribution:.2f}% to confidence")
+    debug_print(
+        verbose,
+        f"DEBUG: Normalized Profile Geo '{profile_geo}' to '{normalized_profile_geo}', contributing {profile_contribution:.2f}% to confidence",
+    )
 
     # Normalize and check Email Geo
     normalized_email_geo = normalize_country_name(email_geo)
     if normalized_email_geo != "Unknown" and profile_geo == "Unknown":
         total_checks += 1
-        email_contribution = email_weight * 100  # Apply the weight from JSON for email location
+        email_contribution = (
+            email_weight * 100
+        )  # Apply the weight from JSON for email location
         confidence += email_contribution
     else:
         email_contribution = 0
 
-    debug_print(verbose, f"DEBUG: Normalized Email Geo '{email_geo}' to '{normalized_email_geo}' with confidence {email_contribution}")
+    debug_print(
+        verbose,
+        f"DEBUG: Normalized Email Geo '{email_geo}' to '{normalized_email_geo}' with confidence {email_contribution}",
+    )
 
     # Handle conflicts between profile and email geo
     if normalized_email_geo != "Unknown" and normalized_profile_geo != "Unknown":
         if normalized_email_geo != normalized_profile_geo:
             # Conflict detected, subtract email contribution from confidence
-            debug_print(verbose, f"DEBUG: Conflict detected between email_geo '{normalized_email_geo}' and profile_geo '{normalized_profile_geo}'. Reducing confidence.")
+            debug_print(
+                verbose,
+                f"DEBUG: Conflict detected between email_geo '{normalized_email_geo}' and profile_geo '{normalized_profile_geo}'. Reducing confidence.",
+            )
             confidence -= email_contribution
 
     # Normalize and check Organization Geo
     if organization_geo != "Unknown":
         normalized_organization_geo = normalize_country_name(organization_geo)
         total_checks += 1
-        confidence += organization_weight * 100  # Apply the weight from JSON for organization location
-        debug_print(verbose, f"DEBUG: Normalized Organization Geo '{organization_geo}' to '{normalized_organization_geo}'")
+        confidence += (
+            organization_weight * 100
+        )  # Apply the weight from JSON for organization location
+        debug_print(
+            verbose,
+            f"DEBUG: Normalized Organization Geo '{organization_geo}' to '{normalized_organization_geo}'",
+        )
 
     # Prioritize profile_geo if email_geo is unknown
-    final_location = normalized_profile_geo if normalized_profile_geo != "Unknown" else normalized_email_geo
+    final_location = (
+        normalized_profile_geo
+        if normalized_profile_geo != "Unknown"
+        else normalized_email_geo
+    )
 
     # Cap confidence based on available data
-    max_possible_confidence = (profile_weight * 100) + (email_weight * 100) + (organization_weight * 100)
+    max_possible_confidence = (
+        (profile_weight * 100) + (email_weight * 100) + (organization_weight * 100)
+    )
     confidence = min(confidence, max_possible_confidence)
 
-    debug_print(verbose, f"DEBUG: Total Checks: {total_checks}, Max Possible Confidence: {max_possible_confidence}, Final Confidence: {confidence:.2f}%")
+    debug_print(
+        verbose,
+        f"DEBUG: Total Checks: {total_checks}, Max Possible Confidence: {max_possible_confidence}, Final Confidence: {confidence:.2f}%",
+    )
 
     return final_location, confidence
 
@@ -110,10 +138,17 @@ def identify_geography(contributor, city_country_dict, verbose=False):
     profile_geo_score = normalized_place_data.get("score", 0)
 
     # Debug for normalize_place results
-    debug_print(verbose, f"DEBUG: Profile Geo '{profile_geo}' matched with '{normalized_profile_geo}' (Score: {profile_geo_score})")
+    debug_print(
+        verbose,
+        f"DEBUG: Profile Geo '{profile_geo}' matched with '{normalized_profile_geo}' (Score: {profile_geo_score})",
+    )
 
     final_location, confidence = determine_final_location(
-        email_geo, normalized_profile_geo, profile_geo_score, organization, verbose=verbose
+        email_geo,
+        normalized_profile_geo,
+        profile_geo_score,
+        organization,
+        verbose=verbose,
     )
 
     if email and "@" in email:
@@ -133,17 +168,16 @@ def identify_geography(contributor, city_country_dict, verbose=False):
     }
 
 
-
 # The second version of identify_geography is a fallback for contributors stored as dictionaries
 def identify_geography_dict(contributor_dict, city_country_dict, verbose=False):
     """
     Fallback version of identify_geography that works on contributors stored as dictionaries
     instead of objects.
     """
-    username = contributor_dict.get('login', 'Unknown')
-    email = contributor_dict.get('email', 'N/A')
-    profile_geo = contributor_dict.get('location', 'Unknown')
-    organization = contributor_dict.get('company', 'Unknown')
+    username = contributor_dict.get("login", "Unknown")
+    email = contributor_dict.get("email", "N/A")
+    profile_geo = contributor_dict.get("location", "Unknown")
+    organization = contributor_dict.get("company", "Unknown")
 
     email_geo = "Unknown"
     if email and "@" in email:
@@ -156,10 +190,17 @@ def identify_geography_dict(contributor_dict, city_country_dict, verbose=False):
     profile_geo_score = normalized_place_data.get("score", 0)
 
     # Debug for normalize_place results
-    debug_print(verbose, f"DEBUG: Profile Geo '{profile_geo}' matched with '{normalized_profile_geo}' (Score: {profile_geo_score})")
+    debug_print(
+        verbose,
+        f"DEBUG: Profile Geo '{profile_geo}' matched with '{normalized_profile_geo}' (Score: {profile_geo_score})",
+    )
 
     final_location, confidence = determine_final_location(
-        email_geo, normalized_profile_geo, profile_geo_score, organization, verbose=verbose
+        email_geo,
+        normalized_profile_geo,
+        profile_geo_score,
+        organization,
+        verbose=verbose,
     )
 
     if email and "@" in email:

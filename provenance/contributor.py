@@ -8,11 +8,13 @@ from provenance.geography import identify_geography
 from provenance.commit import fetch_commits
 from github.GithubException import GithubException, RateLimitExceededException
 
+
 # Exponential backoff with jitter
 def exponential_backoff(attempt, max_delay=120):
-    delay = min(2 ** attempt + random.uniform(0, 1), max_delay)
+    delay = min(2**attempt + random.uniform(0, 1), max_delay)
     logging.warning(f"Backing off for {delay:.2f} seconds before retrying...")
     time.sleep(delay)
+
 
 # Fetch commits with exponential backoff
 def fetch_commits_with_backoff(repo, contributor, show_code, max_retries=5):
@@ -21,7 +23,9 @@ def fetch_commits_with_backoff(repo, contributor, show_code, max_retries=5):
         try:
             return fetch_commits(repo, contributor, show_code)
         except RateLimitExceededException as e:
-            logging.warning(f"Rate limit exceeded for contributor {contributor.login}: {e}")
+            logging.warning(
+                f"Rate limit exceeded for contributor {contributor.login}: {e}"
+            )
             exponential_backoff(attempt)
             attempt += 1
         except GithubException as e:
@@ -32,6 +36,7 @@ def fetch_commits_with_backoff(repo, contributor, show_code, max_retries=5):
             logging.error(f"Unexpected error for contributor {contributor.login}: {e}")
             break
     return None
+
 
 # Get contributors and their commits from a repository with dual progress bars
 def get_contributors(
@@ -59,19 +64,30 @@ def get_contributors(
         contributor_list = []
 
         # Limit the number of concurrent workers to reduce API pressure
-        with ThreadPoolExecutor(max_workers=2) as executor:  # Lower concurrency to avoid rate limits
+        with ThreadPoolExecutor(
+            max_workers=2
+        ) as executor:  # Lower concurrency to avoid rate limits
             futures = {
-                executor.submit(fetch_commits_with_backoff, repo, contributor, show_code): contributor
+                executor.submit(
+                    fetch_commits_with_backoff, repo, contributor, show_code
+                ): contributor
                 for contributor in contributors
             }
 
-            with tqdm(total=total_contributors, desc="Analyzing contributors", unit="contributor", colour="green") as contributor_pbar:
+            with tqdm(
+                total=total_contributors,
+                desc="Analyzing contributors",
+                unit="contributor",
+                colour="green",
+            ) as contributor_pbar:
                 for future in as_completed(futures):
                     contributor = futures[future]
                     result = future.result()
 
                     if result is None:
-                        logging.error(f"Failed to fetch commits for {contributor.login}")
+                        logging.error(
+                            f"Failed to fetch commits for {contributor.login}"
+                        )
                         continue
 
                     # Print commit delta and additional commit-related information
@@ -79,11 +95,15 @@ def get_contributors(
                     print(f"  Commits: {result['commit_delta']}")
                     print(f"  First Commit Date: {result['first_commit']}")
                     print(f"  Last Commit Date: {result['last_commit']}")
-                    print(f"  Commit Frequency: {result['commit_frequency']} commits per day")
+                    print(
+                        f"  Commit Frequency: {result['commit_frequency']} commits per day"
+                    )
                     print(f"  Total Insertions: {result['total_insertions']}")
                     print(f"  Total Deletions: {result['total_deletions']}")
                     if result["commit_bursts"]:
-                        print(f"  Commit Bursts on: {', '.join(map(str, result['commit_bursts']))}")
+                        print(
+                            f"  Commit Bursts on: {', '.join(map(str, result['commit_bursts']))}"
+                        )
                     else:
                         print(f"  No significant commit bursts detected")
 
@@ -108,14 +128,20 @@ def get_contributors(
             contributor_list = []
             for contributor in contributors:
                 # Perform geography lookups
-                geography = identify_geography(contributor, city_country_dict, verbose=verbose)
+                geography = identify_geography(
+                    contributor, city_country_dict, verbose=verbose
+                )
 
                 # Print geography details
-                tqdm.write(f"Contributor Profile Location (raw from GitHub): {contributor.location or 'Unknown'}")
+                tqdm.write(
+                    f"Contributor Profile Location (raw from GitHub): {contributor.location or 'Unknown'}"
+                )
                 tqdm.write(f"Contributor: {contributor.login}")
                 tqdm.write(f"  Email-based Location: {geography['email_geo']}")
                 tqdm.write(f"  Profile Location: {geography['profile_geo']}")
-                tqdm.write(f"  Final Location: {geography['final_location']} with {geography['confidence']:.2f}% confidence\n")
+                tqdm.write(
+                    f"  Final Location: {geography['final_location']} with {geography['confidence']:.2f}% confidence\n"
+                )
 
                 user_data = {
                     "login": contributor.login,

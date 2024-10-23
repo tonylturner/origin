@@ -733,3 +733,1041 @@ Registrars.
 2024-09-28 18:26:07,946 - INFO - Request GET /repos/facebook/react failed with 403: Forbidden
 2024-09-28 18:26:07,946 - INFO - Retrying after 60 seconds
 2024-10-22 09:19:58,212 - ERROR - [third-party] - Error trying to connect to socket: closing socket - [Errno 8] nodename nor servname provided, or not known
+Successfully loaded country codes from data/country_codes.csv
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors?per_page=1 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /users/r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /users/tonylturner HTTP/11" 200 None
+Successfully loaded country codes from data/country_codes.csv
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors?per_page=1 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /users/r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /users/tonylturner HTTP/11" 200 None
+Successfully loaded country codes from data/country_codes.csv
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors?per_page=1 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /users/r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /users/tonylturner HTTP/11" 200 None
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 420755d61458639df12f74a95751d5433962cef6
+Files changed:
+  - waflulz.py: 7 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 76d16f3e775c1722e9c4cbfc78caf72544e7113d
+Files changed:
+  - signatures/dotdefender.py: 2 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 52ce8e62860d92796ed34c9a318962da19eed230
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=tonylturner HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 5e4da8703b0a899e325f0b89d8dacf7979aadcf2
+Files changed:
+  - README.md: 6 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+  - waflulz.py: 7 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 420755d61458639df12f74a95751d5433962cef6
+Files changed:
+  - waflulz.py: 7 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 76d16f3e775c1722e9c4cbfc78caf72544e7113d
+Files changed:
+  - signatures/dotdefender.py: 2 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 52ce8e62860d92796ed34c9a318962da19eed230
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=tonylturner HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 5e4da8703b0a899e325f0b89d8dacf7979aadcf2
+Files changed:
+  - README.md: 6 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+  - waflulz.py: 7 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 420755d61458639df12f74a95751d5433962cef6
+Files changed:
+  - waflulz.py: 7 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 76d16f3e775c1722e9c4cbfc78caf72544e7113d
+Files changed:
+  - signatures/dotdefender.py: 2 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 52ce8e62860d92796ed34c9a318962da19eed230
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=tonylturner HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 5e4da8703b0a899e325f0b89d8dacf7979aadcf2
+Files changed:
+  - README.md: 6 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+  - waflulz.py: 7 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 420755d61458639df12f74a95751d5433962cef6
+Files changed:
+  - waflulz.py: 7 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 76d16f3e775c1722e9c4cbfc78caf72544e7113d
+Files changed:
+  - signatures/dotdefender.py: 2 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 52ce8e62860d92796ed34c9a318962da19eed230
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=tonylturner HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 5e4da8703b0a899e325f0b89d8dacf7979aadcf2
+Files changed:
+  - README.md: 6 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+  - waflulz.py: 7 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 420755d61458639df12f74a95751d5433962cef6
+Files changed:
+  - waflulz.py: 7 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 76d16f3e775c1722e9c4cbfc78caf72544e7113d
+Files changed:
+  - signatures/dotdefender.py: 2 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 52ce8e62860d92796ed34c9a318962da19eed230
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=tonylturner HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 5e4da8703b0a899e325f0b89d8dacf7979aadcf2
+Files changed:
+  - README.md: 6 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+  - waflulz.py: 7 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=r3dxpl0it HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/420755d61458639df12f74a95751d5433962cef6 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 420755d61458639df12f74a95751d5433962cef6
+Files changed:
+  - waflulz.py: 7 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/76d16f3e775c1722e9c4cbfc78caf72544e7113d HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 76d16f3e775c1722e9c4cbfc78caf72544e7113d
+Files changed:
+  - signatures/dotdefender.py: 2 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/52ce8e62860d92796ed34c9a318962da19eed230 HTTP/11" 200 None
+Contributor: r3dxpl0it
+Commit: 52ce8e62860d92796ed34c9a318962da19eed230
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits?author=tonylturner HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/5e4da8703b0a899e325f0b89d8dacf7979aadcf2 HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 5e4da8703b0a899e325f0b89d8dacf7979aadcf2
+Files changed:
+  - README.md: 6 changes
+
+
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/tonylturner/WAFlulz/commits/44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a HTTP/11" 200 None
+Contributor: tonylturner
+Commit: 44f89f6fd9fb66e4bb5d30fa44aacd6acfc2a43a
+Files changed:
+  - signatures/dotdefender.py: 4 changes
+  - waflulz.py: 7 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Contributor: chenensheng
+Commit: 2c62d3ae09d850dc92d66bd8b669614ffe796674
+Files changed:
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.c: 111 changes
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.c: 610 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.inc: 58 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.c: 197 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.inc: 90 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.c: 1072 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.inc: 104 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.c: 86 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.c: 94 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.inc: 44 changes
+  - Huawei_LiteOS/kernel/base/include/los_base.ph: 70 changes
+  - Huawei_LiteOS/kernel/base/include/los_event.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_list.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_membox.ph: 53 changes
+  - Huawei_LiteOS/kernel/base/include/los_memory.ph: 96 changes
+  - Huawei_LiteOS/kernel/base/include/los_memstat.ph: 58 changes
+  - Huawei_LiteOS/kernel/base/include/los_multipledlinkhead.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_mux.ph: 90 changes
+  - Huawei_LiteOS/kernel/base/include/los_printf.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_priqueue.ph: 74 changes
+  - Huawei_LiteOS/kernel/base/include/los_queue.ph: 170 changes
+  - Huawei_LiteOS/kernel/base/include/los_sem.ph: 98 changes
+  - Huawei_LiteOS/kernel/base/include/los_swtmr.ph: 108 changes
+  - Huawei_LiteOS/kernel/base/include/los_sys.ph: 165 changes
+  - Huawei_LiteOS/kernel/base/include/los_task.ph: 456 changes
+  - Huawei_LiteOS/kernel/base/include/los_tick.ph: 82 changes
+  - Huawei_LiteOS/kernel/base/include/los_timeslice.ph: 102 changes
+  - Huawei_LiteOS/kernel/base/include/los_typedef.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.c: 279 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.c: 349 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.inc: 66 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.c: 669 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.c: 321 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.c: 197 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.c: 719 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.inc: 89 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.c: 98 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.c: 107 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/misc/los_misc.c: 68 changes
+  - Huawei_LiteOS/kernel/include/los_base.h: 225 changes
+  - Huawei_LiteOS/kernel/include/los_errno.h: 155 changes
+  - Huawei_LiteOS/kernel/include/los_event.h: 307 changes
+  - Huawei_LiteOS/kernel/include/los_list.h: 455 changes
+  - Huawei_LiteOS/kernel/include/los_membox.h: 212 changes
+  - Huawei_LiteOS/kernel/include/los_memory.h: 237 changes
+  - Huawei_LiteOS/kernel/include/los_multipledlinkhead.h: 85 changes
+  - Huawei_LiteOS/kernel/include/los_mux.h: 277 changes
+  - Huawei_LiteOS/kernel/include/los_printf.h: 119 changes
+  - Huawei_LiteOS/kernel/include/los_priqueue.h: 162 changes
+  - Huawei_LiteOS/kernel/include/los_queue.h: 590 changes
+  - Huawei_LiteOS/kernel/include/los_sem.h: 266 changes
+  - Huawei_LiteOS/kernel/include/los_swtmr.h: 380 changes
+  - Huawei_LiteOS/kernel/include/los_sys.h: 227 changes
+  - Huawei_LiteOS/kernel/include/los_tables.h: 140 changes
+  - Huawei_LiteOS/kernel/include/los_task.h: 819 changes
+  - Huawei_LiteOS/kernel/include/los_tick.h: 88 changes
+  - Huawei_LiteOS/kernel/include/los_typedef.h: 173 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_builddef.h: 199 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.c: 214 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.h: 719 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_dispatch.s: 165 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.c: 189 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.h: 202 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw_tick.c: 123 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.c: 231 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.h: 695 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_vendor.s: 57 changes
+  - LICENSE: 23 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Application/README.md: 1 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.dep: 8086 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewd: 2705 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewp: 0 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewt: 256 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.eww: 10 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS_cortexMF411.icf: 43 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.Debug.cspy.bat: 24 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.crun: 16 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dbgdt: 110 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dni: 107 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wsdt: 66 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wspos: 2 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS_Debug.jlink: 39 changes
+  - README.md: 111 changes
+  - doc/HuaweiLiteOSKernelDevGuide.chm: 0 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng123 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+Contributor: chenensheng123
+Commit: a254524da24dd8f9984e83fbce0b33dca5016a13
+Files changed:
+  - README.md: 1 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=zhoubo85 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+Contributor: zhoubo85
+Commit: fcaf9a019e56a5652997b5aa99ae97f744dca5d0
+Files changed:
+  - README.md: 5 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Contributor: chenensheng
+Commit: 2c62d3ae09d850dc92d66bd8b669614ffe796674
+Files changed:
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.c: 111 changes
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.c: 610 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.inc: 58 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.c: 197 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.inc: 90 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.c: 1072 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.inc: 104 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.c: 86 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.c: 94 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.inc: 44 changes
+  - Huawei_LiteOS/kernel/base/include/los_base.ph: 70 changes
+  - Huawei_LiteOS/kernel/base/include/los_event.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_list.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_membox.ph: 53 changes
+  - Huawei_LiteOS/kernel/base/include/los_memory.ph: 96 changes
+  - Huawei_LiteOS/kernel/base/include/los_memstat.ph: 58 changes
+  - Huawei_LiteOS/kernel/base/include/los_multipledlinkhead.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_mux.ph: 90 changes
+  - Huawei_LiteOS/kernel/base/include/los_printf.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_priqueue.ph: 74 changes
+  - Huawei_LiteOS/kernel/base/include/los_queue.ph: 170 changes
+  - Huawei_LiteOS/kernel/base/include/los_sem.ph: 98 changes
+  - Huawei_LiteOS/kernel/base/include/los_swtmr.ph: 108 changes
+  - Huawei_LiteOS/kernel/base/include/los_sys.ph: 165 changes
+  - Huawei_LiteOS/kernel/base/include/los_task.ph: 456 changes
+  - Huawei_LiteOS/kernel/base/include/los_tick.ph: 82 changes
+  - Huawei_LiteOS/kernel/base/include/los_timeslice.ph: 102 changes
+  - Huawei_LiteOS/kernel/base/include/los_typedef.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.c: 279 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.c: 349 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.inc: 66 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.c: 669 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.c: 321 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.c: 197 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.c: 719 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.inc: 89 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.c: 98 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.c: 107 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/misc/los_misc.c: 68 changes
+  - Huawei_LiteOS/kernel/include/los_base.h: 225 changes
+  - Huawei_LiteOS/kernel/include/los_errno.h: 155 changes
+  - Huawei_LiteOS/kernel/include/los_event.h: 307 changes
+  - Huawei_LiteOS/kernel/include/los_list.h: 455 changes
+  - Huawei_LiteOS/kernel/include/los_membox.h: 212 changes
+  - Huawei_LiteOS/kernel/include/los_memory.h: 237 changes
+  - Huawei_LiteOS/kernel/include/los_multipledlinkhead.h: 85 changes
+  - Huawei_LiteOS/kernel/include/los_mux.h: 277 changes
+  - Huawei_LiteOS/kernel/include/los_printf.h: 119 changes
+  - Huawei_LiteOS/kernel/include/los_priqueue.h: 162 changes
+  - Huawei_LiteOS/kernel/include/los_queue.h: 590 changes
+  - Huawei_LiteOS/kernel/include/los_sem.h: 266 changes
+  - Huawei_LiteOS/kernel/include/los_swtmr.h: 380 changes
+  - Huawei_LiteOS/kernel/include/los_sys.h: 227 changes
+  - Huawei_LiteOS/kernel/include/los_tables.h: 140 changes
+  - Huawei_LiteOS/kernel/include/los_task.h: 819 changes
+  - Huawei_LiteOS/kernel/include/los_tick.h: 88 changes
+  - Huawei_LiteOS/kernel/include/los_typedef.h: 173 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_builddef.h: 199 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.c: 214 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.h: 719 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_dispatch.s: 165 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.c: 189 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.h: 202 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw_tick.c: 123 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.c: 231 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.h: 695 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_vendor.s: 57 changes
+  - LICENSE: 23 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Application/README.md: 1 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.dep: 8086 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewd: 2705 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewp: 0 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewt: 256 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.eww: 10 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS_cortexMF411.icf: 43 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.Debug.cspy.bat: 24 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.crun: 16 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dbgdt: 110 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dni: 107 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wsdt: 66 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wspos: 2 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS_Debug.jlink: 39 changes
+  - README.md: 111 changes
+  - doc/HuaweiLiteOSKernelDevGuide.chm: 0 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng123 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+Contributor: chenensheng123
+Commit: a254524da24dd8f9984e83fbce0b33dca5016a13
+Files changed:
+  - README.md: 1 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=zhoubo85 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+Contributor: zhoubo85
+Commit: fcaf9a019e56a5652997b5aa99ae97f744dca5d0
+Files changed:
+  - README.md: 5 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Contributor: chenensheng
+Commit: 2c62d3ae09d850dc92d66bd8b669614ffe796674
+Files changed:
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.c: 111 changes
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.c: 610 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.inc: 58 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.c: 197 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.inc: 90 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.c: 1072 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.inc: 104 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.c: 86 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.c: 94 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.inc: 44 changes
+  - Huawei_LiteOS/kernel/base/include/los_base.ph: 70 changes
+  - Huawei_LiteOS/kernel/base/include/los_event.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_list.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_membox.ph: 53 changes
+  - Huawei_LiteOS/kernel/base/include/los_memory.ph: 96 changes
+  - Huawei_LiteOS/kernel/base/include/los_memstat.ph: 58 changes
+  - Huawei_LiteOS/kernel/base/include/los_multipledlinkhead.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_mux.ph: 90 changes
+  - Huawei_LiteOS/kernel/base/include/los_printf.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_priqueue.ph: 74 changes
+  - Huawei_LiteOS/kernel/base/include/los_queue.ph: 170 changes
+  - Huawei_LiteOS/kernel/base/include/los_sem.ph: 98 changes
+  - Huawei_LiteOS/kernel/base/include/los_swtmr.ph: 108 changes
+  - Huawei_LiteOS/kernel/base/include/los_sys.ph: 165 changes
+  - Huawei_LiteOS/kernel/base/include/los_task.ph: 456 changes
+  - Huawei_LiteOS/kernel/base/include/los_tick.ph: 82 changes
+  - Huawei_LiteOS/kernel/base/include/los_timeslice.ph: 102 changes
+  - Huawei_LiteOS/kernel/base/include/los_typedef.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.c: 279 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.c: 349 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.inc: 66 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.c: 669 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.c: 321 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.c: 197 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.c: 719 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.inc: 89 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.c: 98 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.c: 107 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/misc/los_misc.c: 68 changes
+  - Huawei_LiteOS/kernel/include/los_base.h: 225 changes
+  - Huawei_LiteOS/kernel/include/los_errno.h: 155 changes
+  - Huawei_LiteOS/kernel/include/los_event.h: 307 changes
+  - Huawei_LiteOS/kernel/include/los_list.h: 455 changes
+  - Huawei_LiteOS/kernel/include/los_membox.h: 212 changes
+  - Huawei_LiteOS/kernel/include/los_memory.h: 237 changes
+  - Huawei_LiteOS/kernel/include/los_multipledlinkhead.h: 85 changes
+  - Huawei_LiteOS/kernel/include/los_mux.h: 277 changes
+  - Huawei_LiteOS/kernel/include/los_printf.h: 119 changes
+  - Huawei_LiteOS/kernel/include/los_priqueue.h: 162 changes
+  - Huawei_LiteOS/kernel/include/los_queue.h: 590 changes
+  - Huawei_LiteOS/kernel/include/los_sem.h: 266 changes
+  - Huawei_LiteOS/kernel/include/los_swtmr.h: 380 changes
+  - Huawei_LiteOS/kernel/include/los_sys.h: 227 changes
+  - Huawei_LiteOS/kernel/include/los_tables.h: 140 changes
+  - Huawei_LiteOS/kernel/include/los_task.h: 819 changes
+  - Huawei_LiteOS/kernel/include/los_tick.h: 88 changes
+  - Huawei_LiteOS/kernel/include/los_typedef.h: 173 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_builddef.h: 199 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.c: 214 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.h: 719 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_dispatch.s: 165 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.c: 189 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.h: 202 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw_tick.c: 123 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.c: 231 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.h: 695 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_vendor.s: 57 changes
+  - LICENSE: 23 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Application/README.md: 1 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.dep: 8086 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewd: 2705 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewp: 0 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewt: 256 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.eww: 10 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS_cortexMF411.icf: 43 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.Debug.cspy.bat: 24 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.crun: 16 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dbgdt: 110 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dni: 107 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wsdt: 66 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wspos: 2 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS_Debug.jlink: 39 changes
+  - README.md: 111 changes
+  - doc/HuaweiLiteOSKernelDevGuide.chm: 0 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng123 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+Contributor: chenensheng123
+Commit: a254524da24dd8f9984e83fbce0b33dca5016a13
+Files changed:
+  - README.md: 1 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=zhoubo85 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+Contributor: zhoubo85
+Commit: fcaf9a019e56a5652997b5aa99ae97f744dca5d0
+Files changed:
+  - README.md: 5 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Contributor: chenensheng
+Commit: 2c62d3ae09d850dc92d66bd8b669614ffe796674
+Files changed:
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.c: 111 changes
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.c: 610 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.inc: 58 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.c: 197 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.inc: 90 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.c: 1072 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.inc: 104 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.c: 86 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.c: 94 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.inc: 44 changes
+  - Huawei_LiteOS/kernel/base/include/los_base.ph: 70 changes
+  - Huawei_LiteOS/kernel/base/include/los_event.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_list.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_membox.ph: 53 changes
+  - Huawei_LiteOS/kernel/base/include/los_memory.ph: 96 changes
+  - Huawei_LiteOS/kernel/base/include/los_memstat.ph: 58 changes
+  - Huawei_LiteOS/kernel/base/include/los_multipledlinkhead.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_mux.ph: 90 changes
+  - Huawei_LiteOS/kernel/base/include/los_printf.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_priqueue.ph: 74 changes
+  - Huawei_LiteOS/kernel/base/include/los_queue.ph: 170 changes
+  - Huawei_LiteOS/kernel/base/include/los_sem.ph: 98 changes
+  - Huawei_LiteOS/kernel/base/include/los_swtmr.ph: 108 changes
+  - Huawei_LiteOS/kernel/base/include/los_sys.ph: 165 changes
+  - Huawei_LiteOS/kernel/base/include/los_task.ph: 456 changes
+  - Huawei_LiteOS/kernel/base/include/los_tick.ph: 82 changes
+  - Huawei_LiteOS/kernel/base/include/los_timeslice.ph: 102 changes
+  - Huawei_LiteOS/kernel/base/include/los_typedef.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.c: 279 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.c: 349 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.inc: 66 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.c: 669 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.c: 321 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.c: 197 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.c: 719 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.inc: 89 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.c: 98 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.c: 107 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/misc/los_misc.c: 68 changes
+  - Huawei_LiteOS/kernel/include/los_base.h: 225 changes
+  - Huawei_LiteOS/kernel/include/los_errno.h: 155 changes
+  - Huawei_LiteOS/kernel/include/los_event.h: 307 changes
+  - Huawei_LiteOS/kernel/include/los_list.h: 455 changes
+  - Huawei_LiteOS/kernel/include/los_membox.h: 212 changes
+  - Huawei_LiteOS/kernel/include/los_memory.h: 237 changes
+  - Huawei_LiteOS/kernel/include/los_multipledlinkhead.h: 85 changes
+  - Huawei_LiteOS/kernel/include/los_mux.h: 277 changes
+  - Huawei_LiteOS/kernel/include/los_printf.h: 119 changes
+  - Huawei_LiteOS/kernel/include/los_priqueue.h: 162 changes
+  - Huawei_LiteOS/kernel/include/los_queue.h: 590 changes
+  - Huawei_LiteOS/kernel/include/los_sem.h: 266 changes
+  - Huawei_LiteOS/kernel/include/los_swtmr.h: 380 changes
+  - Huawei_LiteOS/kernel/include/los_sys.h: 227 changes
+  - Huawei_LiteOS/kernel/include/los_tables.h: 140 changes
+  - Huawei_LiteOS/kernel/include/los_task.h: 819 changes
+  - Huawei_LiteOS/kernel/include/los_tick.h: 88 changes
+  - Huawei_LiteOS/kernel/include/los_typedef.h: 173 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_builddef.h: 199 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.c: 214 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.h: 719 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_dispatch.s: 165 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.c: 189 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.h: 202 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw_tick.c: 123 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.c: 231 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.h: 695 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_vendor.s: 57 changes
+  - LICENSE: 23 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Application/README.md: 1 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.dep: 8086 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewd: 2705 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewp: 0 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewt: 256 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.eww: 10 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS_cortexMF411.icf: 43 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.Debug.cspy.bat: 24 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.crun: 16 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dbgdt: 110 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dni: 107 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wsdt: 66 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wspos: 2 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS_Debug.jlink: 39 changes
+  - README.md: 111 changes
+  - doc/HuaweiLiteOSKernelDevGuide.chm: 0 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng123 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+Contributor: chenensheng123
+Commit: a254524da24dd8f9984e83fbce0b33dca5016a13
+Files changed:
+  - README.md: 1 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=zhoubo85 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+Contributor: zhoubo85
+Commit: fcaf9a019e56a5652997b5aa99ae97f744dca5d0
+Files changed:
+  - README.md: 5 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Contributor: chenensheng
+Commit: 2c62d3ae09d850dc92d66bd8b669614ffe796674
+Files changed:
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.c: 111 changes
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.c: 610 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.inc: 58 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.c: 197 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.inc: 90 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.c: 1072 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.inc: 104 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.c: 86 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.c: 94 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.inc: 44 changes
+  - Huawei_LiteOS/kernel/base/include/los_base.ph: 70 changes
+  - Huawei_LiteOS/kernel/base/include/los_event.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_list.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_membox.ph: 53 changes
+  - Huawei_LiteOS/kernel/base/include/los_memory.ph: 96 changes
+  - Huawei_LiteOS/kernel/base/include/los_memstat.ph: 58 changes
+  - Huawei_LiteOS/kernel/base/include/los_multipledlinkhead.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_mux.ph: 90 changes
+  - Huawei_LiteOS/kernel/base/include/los_printf.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_priqueue.ph: 74 changes
+  - Huawei_LiteOS/kernel/base/include/los_queue.ph: 170 changes
+  - Huawei_LiteOS/kernel/base/include/los_sem.ph: 98 changes
+  - Huawei_LiteOS/kernel/base/include/los_swtmr.ph: 108 changes
+  - Huawei_LiteOS/kernel/base/include/los_sys.ph: 165 changes
+  - Huawei_LiteOS/kernel/base/include/los_task.ph: 456 changes
+  - Huawei_LiteOS/kernel/base/include/los_tick.ph: 82 changes
+  - Huawei_LiteOS/kernel/base/include/los_timeslice.ph: 102 changes
+  - Huawei_LiteOS/kernel/base/include/los_typedef.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.c: 279 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.c: 349 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.inc: 66 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.c: 669 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.c: 321 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.c: 197 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.c: 719 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.inc: 89 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.c: 98 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.c: 107 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/misc/los_misc.c: 68 changes
+  - Huawei_LiteOS/kernel/include/los_base.h: 225 changes
+  - Huawei_LiteOS/kernel/include/los_errno.h: 155 changes
+  - Huawei_LiteOS/kernel/include/los_event.h: 307 changes
+  - Huawei_LiteOS/kernel/include/los_list.h: 455 changes
+  - Huawei_LiteOS/kernel/include/los_membox.h: 212 changes
+  - Huawei_LiteOS/kernel/include/los_memory.h: 237 changes
+  - Huawei_LiteOS/kernel/include/los_multipledlinkhead.h: 85 changes
+  - Huawei_LiteOS/kernel/include/los_mux.h: 277 changes
+  - Huawei_LiteOS/kernel/include/los_printf.h: 119 changes
+  - Huawei_LiteOS/kernel/include/los_priqueue.h: 162 changes
+  - Huawei_LiteOS/kernel/include/los_queue.h: 590 changes
+  - Huawei_LiteOS/kernel/include/los_sem.h: 266 changes
+  - Huawei_LiteOS/kernel/include/los_swtmr.h: 380 changes
+  - Huawei_LiteOS/kernel/include/los_sys.h: 227 changes
+  - Huawei_LiteOS/kernel/include/los_tables.h: 140 changes
+  - Huawei_LiteOS/kernel/include/los_task.h: 819 changes
+  - Huawei_LiteOS/kernel/include/los_tick.h: 88 changes
+  - Huawei_LiteOS/kernel/include/los_typedef.h: 173 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_builddef.h: 199 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.c: 214 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.h: 719 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_dispatch.s: 165 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.c: 189 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.h: 202 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw_tick.c: 123 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.c: 231 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.h: 695 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_vendor.s: 57 changes
+  - LICENSE: 23 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Application/README.md: 1 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.dep: 8086 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewd: 2705 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewp: 0 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewt: 256 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.eww: 10 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS_cortexMF411.icf: 43 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.Debug.cspy.bat: 24 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.crun: 16 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dbgdt: 110 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dni: 107 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wsdt: 66 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wspos: 2 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS_Debug.jlink: 39 changes
+  - README.md: 111 changes
+  - doc/HuaweiLiteOSKernelDevGuide.chm: 0 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng123 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+Contributor: chenensheng123
+Commit: a254524da24dd8f9984e83fbce0b33dca5016a13
+Files changed:
+  - README.md: 1 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=zhoubo85 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+Contributor: zhoubo85
+Commit: fcaf9a019e56a5652997b5aa99ae97f744dca5d0
+Files changed:
+  - README.md: 5 changes
+
+
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/contributors HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/2c62d3ae09d850dc92d66bd8b669614ffe796674 HTTP/11" 200 None
+Contributor: chenensheng
+Commit: 2c62d3ae09d850dc92d66bd8b669614ffe796674
+Files changed:
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.c: 111 changes
+  - Huawei_LiteOS/kernel/base/core/los_priqueue.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.c: 610 changes
+  - Huawei_LiteOS/kernel/base/core/los_swtmr.inc: 58 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.c: 197 changes
+  - Huawei_LiteOS/kernel/base/core/los_sys.inc: 90 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.c: 1072 changes
+  - Huawei_LiteOS/kernel/base/core/los_task.inc: 104 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.c: 86 changes
+  - Huawei_LiteOS/kernel/base/core/los_tick.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.c: 94 changes
+  - Huawei_LiteOS/kernel/base/core/los_timeslice.inc: 44 changes
+  - Huawei_LiteOS/kernel/base/include/los_base.ph: 70 changes
+  - Huawei_LiteOS/kernel/base/include/los_event.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_list.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_membox.ph: 53 changes
+  - Huawei_LiteOS/kernel/base/include/los_memory.ph: 96 changes
+  - Huawei_LiteOS/kernel/base/include/los_memstat.ph: 58 changes
+  - Huawei_LiteOS/kernel/base/include/los_multipledlinkhead.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/include/los_mux.ph: 90 changes
+  - Huawei_LiteOS/kernel/base/include/los_printf.ph: 57 changes
+  - Huawei_LiteOS/kernel/base/include/los_priqueue.ph: 74 changes
+  - Huawei_LiteOS/kernel/base/include/los_queue.ph: 170 changes
+  - Huawei_LiteOS/kernel/base/include/los_sem.ph: 98 changes
+  - Huawei_LiteOS/kernel/base/include/los_swtmr.ph: 108 changes
+  - Huawei_LiteOS/kernel/base/include/los_sys.ph: 165 changes
+  - Huawei_LiteOS/kernel/base/include/los_task.ph: 456 changes
+  - Huawei_LiteOS/kernel/base/include/los_tick.ph: 82 changes
+  - Huawei_LiteOS/kernel/base/include/los_timeslice.ph: 102 changes
+  - Huawei_LiteOS/kernel/base/include/los_typedef.ph: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.c: 279 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_event.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.c: 349 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_mux.inc: 66 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.c: 669 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_queue.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.c: 321 changes
+  - Huawei_LiteOS/kernel/base/ipc/los_sem.inc: 56 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.c: 197 changes
+  - Huawei_LiteOS/kernel/base/mem/los_membox.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.c: 719 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memory.inc: 89 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.c: 98 changes
+  - Huawei_LiteOS/kernel/base/mem/los_memstat.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.c: 107 changes
+  - Huawei_LiteOS/kernel/base/mem/los_multipledlinkhead.inc: 40 changes
+  - Huawei_LiteOS/kernel/base/misc/los_misc.c: 68 changes
+  - Huawei_LiteOS/kernel/include/los_base.h: 225 changes
+  - Huawei_LiteOS/kernel/include/los_errno.h: 155 changes
+  - Huawei_LiteOS/kernel/include/los_event.h: 307 changes
+  - Huawei_LiteOS/kernel/include/los_list.h: 455 changes
+  - Huawei_LiteOS/kernel/include/los_membox.h: 212 changes
+  - Huawei_LiteOS/kernel/include/los_memory.h: 237 changes
+  - Huawei_LiteOS/kernel/include/los_multipledlinkhead.h: 85 changes
+  - Huawei_LiteOS/kernel/include/los_mux.h: 277 changes
+  - Huawei_LiteOS/kernel/include/los_printf.h: 119 changes
+  - Huawei_LiteOS/kernel/include/los_priqueue.h: 162 changes
+  - Huawei_LiteOS/kernel/include/los_queue.h: 590 changes
+  - Huawei_LiteOS/kernel/include/los_sem.h: 266 changes
+  - Huawei_LiteOS/kernel/include/los_swtmr.h: 380 changes
+  - Huawei_LiteOS/kernel/include/los_sys.h: 227 changes
+  - Huawei_LiteOS/kernel/include/los_tables.h: 140 changes
+  - Huawei_LiteOS/kernel/include/los_task.h: 819 changes
+  - Huawei_LiteOS/kernel/include/los_tick.h: 88 changes
+  - Huawei_LiteOS/kernel/include/los_typedef.h: 173 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_builddef.h: 199 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.c: 214 changes
+  - Huawei_LiteOS/platform/bsp/sample/config/los_config.h: 719 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_dispatch.s: 165 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.c: 189 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw.h: 202 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hw_tick.c: 123 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.c: 231 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_hwi.h: 695 changes
+  - Huawei_LiteOS/platform/cpu/arm/cortex-m4/los_vendor.s: 57 changes
+  - LICENSE: 23 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Application/README.md: 1 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.dep: 8086 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewd: 2705 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewp: 0 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.ewt: 256 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS.eww: 10 changes
+  - Projects/EWARM/cortex-m4/stm32f411/Huawei_LiteOS_cortexMF411.icf: 43 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.Debug.cspy.bat: 24 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.crun: 16 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dbgdt: 110 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.dni: 107 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wsdt: 66 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS.wspos: 2 changes
+  - Projects/EWARM/cortex-m4/stm32f411/settings/Huawei_LiteOS_Debug.jlink: 39 changes
+  - README.md: 111 changes
+  - doc/HuaweiLiteOSKernelDevGuide.chm: 0 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=chenensheng123 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/a254524da24dd8f9984e83fbce0b33dca5016a13 HTTP/11" 200 None
+Contributor: chenensheng123
+Commit: a254524da24dd8f9984e83fbce0b33dca5016a13
+Files changed:
+  - README.md: 1 changes
+
+
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits?author=zhoubo85 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+https://api.github.com:443 "GET /repos/Huawei/Huawei_LiteOS_Kernel/commits/fcaf9a019e56a5652997b5aa99ae97f744dca5d0 HTTP/11" 200 None
+Contributor: zhoubo85
+Commit: fcaf9a019e56a5652997b5aa99ae97f744dca5d0
+Files changed:
+  - README.md: 5 changes
+
+

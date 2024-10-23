@@ -14,9 +14,20 @@ city_country_dict = load_world_cities(world_cities_path)
 
 # Example database of standardized place names for fuzzy matching
 known_places = [
-    "New York City", "Los Angeles", "San Francisco", "Austin, Texas", "London", 
-    "Luxemburg", "Paris", "Tokyo", "Berlin", "Chicago", "Houston", "United States of America"
+    "New York City",
+    "Los Angeles",
+    "San Francisco",
+    "Austin, Texas",
+    "London",
+    "Luxemburg",
+    "Paris",
+    "Tokyo",
+    "Berlin",
+    "Chicago",
+    "Houston",
+    "United States of America",
 ]
+
 
 def normalize_place(location):
     """
@@ -31,7 +42,12 @@ def normalize_place(location):
     """
     if not location or location.lower() == "unknown":
         print(f"DEBUG: Location '{location}' is unknown or empty. Returning default.")
-        return {"matched_place": "Unknown", "score": 0, "geograpy_data": {}, "fuzzy_match": {}}
+        return {
+            "matched_place": "Unknown",
+            "score": 0,
+            "geograpy_data": {},
+            "fuzzy_match": {},
+        }
 
     try:
         # Use geograpy to extract places from the input
@@ -42,17 +58,24 @@ def normalize_place(location):
             "countries": places.countries,
             "regions": places.regions,
             "cities": places.cities,
-            "other": places.other
+            "other": places.other,
         }
         print(f"DEBUG: Geograpy data extracted from '{location}': {geograpy_data}")
 
         # Initialize return data structure
-        result = {"geograpy_data": geograpy_data, "fuzzy_match": {}, "matched_place": "Unknown", "score": 0}
+        result = {
+            "geograpy_data": geograpy_data,
+            "fuzzy_match": {},
+            "matched_place": "Unknown",
+            "score": 0,
+        }
 
         # If Geograpy finds a country, return it as a match
         if places.countries:
             country = places.countries[0]
-            print(f"DEBUG: Country '{country}' identified by geograpy. Using as the matched place.")
+            print(
+                f"DEBUG: Country '{country}' identified by geograpy. Using as the matched place."
+            )
             result["matched_place"] = country
             result["score"] = 100
             return result
@@ -71,8 +94,12 @@ def normalize_place(location):
         # Fallback: Check country_codes.csv if Geograpy fails to identify
         country_from_csv = country_code_dict.get(location.upper(), None)
         if country_from_csv:
-            country_name = country_from_csv.split(",")[0]  # Extract the full country name
-            print(f"DEBUG: Fallback to country_codes.csv for location '{location}': Matched country '{country_name}'.")
+            country_name = country_from_csv.split(",")[
+                0
+            ]  # Extract the full country name
+            print(
+                f"DEBUG: Fallback to country_codes.csv for location '{location}': Matched country '{country_name}'."
+            )
             result["matched_place"] = country_name
             result["score"] = 100
             return result
@@ -88,17 +115,23 @@ def normalize_place(location):
         return result
     except Exception as e:
         print(f"Error in normalizing place: {e}")
-        return {"matched_place": "Unknown", "score": 0, "geograpy_data": {}, "fuzzy_match": {}}
+        return {
+            "matched_place": "Unknown",
+            "score": 0,
+            "geograpy_data": {},
+            "fuzzy_match": {},
+        }
+
 
 # Test cases for debugging
 if __name__ == "__main__":
-    print(normalize_place("nyc"))              # Expected: New York City
-    print(normalize_place("ny, ny"))           # Expected: New York City
-    print(normalize_place("New York City"))    # Expected: New York City
-    print(normalize_place("Austin, Texas"))    # Expected: Austin, Texas
-    print(normalize_place("L.A."))             # Expected: Los Angeles
-    print(normalize_place("Luxemburg"))        # Expected: Luxemburg
-    print(normalize_place("Unknown"))          # Expected: Unknown, 0
-    print(normalize_place("Anahola, HI"))      # Expected: Handle city and state
-    print(normalize_place("United States"))    # Expected: United States of America
-    print(normalize_place("NL"))               # Expected: Netherlands from fallback
+    print(normalize_place("nyc"))  # Expected: New York City
+    print(normalize_place("ny, ny"))  # Expected: New York City
+    print(normalize_place("New York City"))  # Expected: New York City
+    print(normalize_place("Austin, Texas"))  # Expected: Austin, Texas
+    print(normalize_place("L.A."))  # Expected: Los Angeles
+    print(normalize_place("Luxemburg"))  # Expected: Luxemburg
+    print(normalize_place("Unknown"))  # Expected: Unknown, 0
+    print(normalize_place("Anahola, HI"))  # Expected: Handle city and state
+    print(normalize_place("United States"))  # Expected: United States of America
+    print(normalize_place("NL"))  # Expected: Netherlands from fallback

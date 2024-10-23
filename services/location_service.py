@@ -1,4 +1,3 @@
-
 import os
 import requests
 import logging
@@ -9,6 +8,7 @@ logger = logging.getLogger(__name__)
 
 # Load city-country data
 city_country_dict = load_world_cities("data/world_cities.csv")
+
 
 def get_location_geolocation(city_name, city_country_dict):
     api_key = os.getenv("LOCATIONIQ_API_KEY")

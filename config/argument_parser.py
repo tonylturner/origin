@@ -2,6 +2,7 @@ import argparse
 import logging
 import os
 
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Fetch contributors, forks, and commit details from a GitHub repository using a URL."
@@ -13,7 +14,7 @@ def parse_args():
         "--repo-url",
         type=str,
         help="GitHub repository URL (e.g., https://github.com/octocat/Hello-World)",
-        # Do not make this required, so the program can fall back to the menu if not provided
+        # Not required so it can fall back to the menu if not provided
     )
 
     # Analyze commits at the repository level
@@ -79,9 +80,9 @@ def parse_args():
 
     # Purge application log file before starting
     parser.add_argument(
-        "--purge-logs", 
-        action="store_true", 
-        help="Purge the application log file before starting."
+        "--purge-logs",
+        action="store_true",
+        help="Purge the application log file before starting.",
     )
 
     # Force NLTK data update
@@ -99,23 +100,33 @@ def configure_logging(verbosity, purge_logs=False):
 
     # Purge log file if requested
     if purge_logs and os.path.exists(log_file):
-        with open(log_file, 'w'):
+        with open(log_file, "w"):
             pass
         print(f"Log file {log_file} purged.")
 
     # Configure logging based on the verbosity level
     if verbosity == 1:
-        logging.basicConfig(level=logging.ERROR, format="%(message)s", filename=log_file)
+        logging.basicConfig(
+            level=logging.ERROR, format="%(message)s", filename=log_file
+        )
     elif verbosity == 2:
-        logging.basicConfig(level=logging.WARNING, format="%(message)s", filename=log_file)
+        logging.basicConfig(
+            level=logging.WARNING, format="%(message)s", filename=log_file
+        )
     elif verbosity >= 3:
-        logging.basicConfig(level=logging.DEBUG, format="%(message)s", filename=log_file)
+        logging.basicConfig(
+            level=logging.DEBUG, format="%(message)s", filename=log_file
+        )
     else:
-        logging.basicConfig(level=logging.CRITICAL, format="%(message)s", filename=log_file)
+        logging.basicConfig(
+            level=logging.CRITICAL, format="%(message)s", filename=log_file
+        )
 
     # Adjust logging for third-party libraries like 'whois' if necessary
     whois_logger = logging.getLogger("whois")
     if verbosity >= 3:
         whois_logger.setLevel(logging.DEBUG)
     else:
-        whois_logger.setLevel(logging.CRITICAL)  # Suppress whois logging unless in debug mode
+        whois_logger.setLevel(
+            logging.CRITICAL
+        )  # Suppress whois logging unless in debug mode

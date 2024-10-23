@@ -4,8 +4,11 @@ from provenance.geography import identify_geography
 # List of adversarial or banned countries
 BANNED_COUNTRIES = ["China", "Iran", "North Korea", "Cuba", "Venezuela", "Russia"]
 
+
 # Function to run adversarial analysis on contributors
-def run_adversarial_analysis(owner, repo_name, contributors, city_country_dict, verbose=False):
+def run_adversarial_analysis(
+    owner, repo_name, contributors, city_country_dict, verbose=False
+):
     tqdm.write(f"Running adversarial analysis on {owner}/{repo_name}...")
 
     # Normalize banned countries for comparison
