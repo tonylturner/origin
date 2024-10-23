@@ -4,6 +4,7 @@ import logging
 import readline  # Import readline to enable tab completion
 
 from modules.linguistic_analysis import LinguisticAnalysis
+from modules.devtools_analysis import DevToolsAnalysis
 from config.argument_parser import parse_args, configure_logging
 from config.setup_nltk import setup_nltk_data  # Ensure NLTK models are handled
 from utils.cli import OriginCLI  # Import the CLI class from utils.cli
@@ -12,6 +13,9 @@ from provenance.commit import analyze_commits
 
 # Initialize linguistic analysis engine
 linguistic_analyzer = LinguisticAnalysis()
+
+# Initialize devtools analysis engine
+devtools_analyzer = DevToolsAnalysis()
 
 
 # Function to detect contributor origin using metadata and linguistic analysis as a fallback
@@ -46,6 +50,18 @@ def detect_origin_from_metadata(contributor_info):
     elif contributor_info.get("organization") == "Russian Dev Group":
         return "Russia"
     return None
+
+
+# Function to perform devtools analysis on commit metadata and logs
+def perform_devtools_analysis(commit_metadata, logs, files):
+    devtools_result = devtools_analyzer.analyze_commit_metadata(commit_metadata)
+    compiler_language = devtools_analyzer.detect_compiler_language(logs)
+    localization_settings = devtools_analyzer.detect_localization_settings(files)
+
+    # Use the results in your analysis
+    print(f"DevTools Analysis Result: {devtools_result}")
+    print(f"Compiler Language: {compiler_language}")
+    print(f"Localization Settings: {localization_settings}")
 
 
 # Main function to handle the workflow based on command-line arguments or menu interaction

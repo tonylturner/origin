@@ -4,7 +4,7 @@ import spacy
 import re
 from sklearn.feature_extraction.text import CountVectorizer
 from langdetect import detect
-
+import logging
 
 class LinguisticAnalysis:
     def __init__(self):
@@ -50,20 +50,13 @@ class LinguisticAnalysis:
             if language == "en":
                 # Detect subject-verb agreement issues
                 if token.dep_ == "nsubj" and token.head.pos_ == "VERB":
-                    if token.tag_ in ["NN", "NNS"] and token.head.tag_ not in [
-                        "VBZ",
-                        "VBP",
-                    ]:
+                    if token.tag_ in ["NN", "NNS"] and token.head.tag_ not in ["VBZ", "VBP"]:
                         syntax_features["Subject-Verb_Agreement"].append(
                             f"Issue: {token.text} -> {token.head.text}"
                         )
 
                 # Detect missing articles
-                if (
-                    token.pos_ == "NOUN"
-                    and token.i > 0
-                    and doc[token.i - 1].pos_ != "DET"
-                ):
+                if token.pos_ == "NOUN" and token.i > 0 and doc[token.i - 1].pos_ != "DET":
                     syntax_features["Missing_Articles"].append(
                         f"Missing article before: {token.text}"
                     )
@@ -90,9 +83,19 @@ class LinguisticAnalysis:
         }
 
     def extract_ngrams(self, text, n=2):
-        vectorizer = CountVectorizer(ngram_range=(n, n), analyzer="word")
-        X = vectorizer.fit_transform([text])
-        return vectorizer.get_feature_names_out()
+        # Ensure the text is not empty or too short for n-grams extraction
+        if not text or len(text.split()) < n:
+            return []
+
+        vectorizer = CountVectorizer(ngram_range=(n, n), analyzer='word', stop_words='english')
+
+        try:
+            X = vectorizer.fit_transform([text])
+            return vectorizer.get_feature_names_out()
+        except ValueError as e:
+            # If the vocabulary is empty or contains only stop words, handle the exception
+            logging.warning(f"Skipping n-grams extraction due to empty vocabulary: {e}")
+            return []
 
     def identify_origin_from_syntax(self, syntax_results):
         score = 0

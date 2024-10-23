@@ -128,7 +128,7 @@ def process_commit_details(repo, contributor, commits, show_code=False):
 
 # New top-level function for commit analysis
 def analyze_commits(
-    owner, repo_name, contributor=None, show_code=False, enable_commit_analysis=False
+    owner, repo_name, contributor=None, show_code=False, enable_commit_analysis=True
 ):
     """
     Analyze commits for a repository. Optionally filter commits by a specific contributor.

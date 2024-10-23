@@ -29,3 +29,9 @@ venv.bak/
 
 # data
 data/nltk/
+
+# vscode
+*.code-workspace
+
+#jupyter
+.ipynb_checkpoints
