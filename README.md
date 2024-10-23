@@ -29,7 +29,7 @@ The tool checks the geographic location of contributors and identifies contribut
 Install the required dependencies by running:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-minimal.txt
 ```
 
 # Usage:
