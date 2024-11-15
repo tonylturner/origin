@@ -5,14 +5,40 @@ import re
 from sklearn.feature_extraction.text import CountVectorizer
 from langdetect import detect
 import logging
+from spacy.cli import download
+from spacy.util import get_package_path
+
 
 class LinguisticAnalysis:
     def __init__(self):
+        # Required models for spaCy
+        self.required_spacy_models = ["en_core_web_sm", "zh_core_web_sm"]
+        self.ensure_spacy_models_installed()
+
         # Load pre-trained models
         self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
         self.bert_model = BertModel.from_pretrained("bert-base-uncased")
         self.nlp_en = spacy.load("en_core_web_sm")
         self.nlp_zh = spacy.load("zh_core_web_sm")
+
+    def ensure_spacy_models_installed(self):
+        """
+        Ensure required spaCy models are installed. Download them if missing.
+        """
+        for model in self.required_spacy_models:
+            try:
+                # Check if the model is already installed
+                get_package_path(model)
+                logging.info(f"spaCy model '{model}' is already installed.")
+            except OSError:
+                # If not installed, download it
+                logging.warning(f"spaCy model '{model}' not found. Downloading...")
+                try:
+                    download(model)
+                    logging.info(f"spaCy model '{model}' downloaded successfully.")
+                except Exception as e:
+                    logging.error(f"Failed to download spaCy model '{model}': {e}")
+                    raise
 
     def get_bert_embeddings(self, text):
         inputs = self.tokenizer(
@@ -29,7 +55,7 @@ class LinguisticAnalysis:
         else:
             language = detect(text)
 
-        print(f"Detected language: {language}")
+        logging.info(f"Detected language: {language}")
 
         # Load appropriate language model based on detected language
         if language == "zh":
@@ -137,16 +163,8 @@ class LinguisticAnalysis:
 
 
 # Example usage
-analysis = LinguisticAnalysis()
-analysis.classify_text("创建Huawei_LiteOS_Kernel项目，初始提交代码及开发指导文档")
-
-# Test known Chinese and Russian projects
-chinese_projects = [
-    "https://github.com/Huawei/Huawei_LiteOS_Kernel",
-    "https://github.com/ChinaTelecomOperators/SMSForward",
-]
-
-russian_projects = [
-    "https://github.com/KasperskyLab/triangle_check",
-    "https://github.com/ispras/dedoc",
-]
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    analysis = LinguisticAnalysis()
+    result = analysis.classify_text("创建Huawei_LiteOS_Kernel项目，初始提交代码及开发指导文档")
+    print(f"Classification result: {result}")
