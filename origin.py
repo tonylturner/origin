@@ -1,26 +1,30 @@
 import sys
-import os
 import logging
-import readline  # Import readline to enable tab completion
-
+import readline  # Enable tab completion for better CLI experience
 from modules.linguistic_analysis import LinguisticAnalysis
 from modules.devtools_analysis import DevToolsAnalysis
 from config.argument_parser import parse_args, configure_logging
-from config.setup_nltk import setup_nltk_data  # Ensure NLTK models are handled
-from utils.cli import OriginCLI  # Import the CLI class from utils.cli
-from utils.menu import display_main_menu  # Import the menu display function
+from config.setup_nltk import setup_nltk_data
+from utils.cli import OriginCLI
+from utils.menu import display_main_menu
 from provenance.commit import analyze_commits
 
-# Initialize linguistic analysis engine
+# Initialize engines
 linguistic_analyzer = LinguisticAnalysis()
-
-# Initialize devtools analysis engine
 devtools_analyzer = DevToolsAnalysis()
 
 
-# Function to detect contributor origin using metadata and linguistic analysis as a fallback
 def detect_contributor_origin(contributor_info, commit_messages):
-    # Use metadata (GitHub profile, email, etc.) for origin detection first
+    """
+    Detect contributor's origin using metadata and linguistic analysis as fallback.
+
+    Args:
+        contributor_info (dict): Contributor metadata (e.g., email, organization).
+        commit_messages (list): Commit messages for linguistic analysis.
+
+    Returns:
+        str: Likely origin of the contributor.
+    """
     country_from_metadata = detect_origin_from_metadata(contributor_info)
 
     if country_from_metadata:
@@ -28,90 +32,104 @@ def detect_contributor_origin(contributor_info, commit_messages):
 
     # Fallback: Perform linguistic analysis on commit messages
     for message in commit_messages:
-        print(f"Analyzing commit message: {message}")
+        logging.info(f"Analyzing commit message: {message}")
 
         # Perform linguistic analysis
         syntax_results = linguistic_analyzer.analyze_syntax(message)
-        code_patterns = linguistic_analyzer.extract_code_patterns(message)
-
-        # Infer origin from linguistic patterns
         likely_origin = linguistic_analyzer.identify_origin_from_syntax(syntax_results)
+
         if likely_origin != "Unknown":
             return likely_origin
 
     return "Unknown"
 
 
-# Function to detect origin based on metadata (e.g., email domain or organization)
 def detect_origin_from_metadata(contributor_info):
-    # Simple checks based on email domain or organization
-    if contributor_info.get("email") and contributor_info["email"].endswith(".cn"):
+    """
+    Detect origin based on metadata like email domain or organization.
+
+    Args:
+        contributor_info (dict): Contributor metadata.
+
+    Returns:
+        str or None: Detected origin or None if no match.
+    """
+    email = contributor_info.get("email", "")
+    organization = contributor_info.get("organization", "")
+
+    if email.endswith(".cn"):
         return "China"
-    elif contributor_info.get("organization") == "Russian Dev Group":
+    elif organization.lower() == "russian dev group":
         return "Russia"
     return None
 
 
-# Function to perform devtools analysis on commit metadata and logs
 def perform_devtools_analysis(commit_metadata, logs, files):
+    """
+    Perform analysis on commit metadata, logs, and files.
+
+    Args:
+        commit_metadata (dict): Commit metadata for analysis.
+        logs (str): Logs to analyze.
+        files (list): List of files for localization or tool detection.
+    """
     devtools_result = devtools_analyzer.analyze_commit_metadata(commit_metadata)
     compiler_language = devtools_analyzer.detect_compiler_language(logs)
     localization_settings = devtools_analyzer.detect_localization_settings(files)
 
-    # Use the results in your analysis
-    print(f"DevTools Analysis Result: {devtools_result}")
-    print(f"Compiler Language: {compiler_language}")
-    print(f"Localization Settings: {localization_settings}")
+    logging.info(f"DevTools Analysis Result: {devtools_result}")
+    logging.info(f"Compiler Language: {compiler_language}")
+    logging.info(f"Localization Settings: {localization_settings}")
 
 
-# Main function to handle the workflow based on command-line arguments or menu interaction
 def main():
+    """
+    Main entry point for the Origin tool.
+    Handles command-line arguments and interactive menu options.
+    """
     args = parse_args()
     configure_logging(args.verbose)
     setup_nltk_data(force_download=args.update_nltk)
 
     try:
-        # Command-line arguments
+        # Command-line mode
         if args.commit_analysis:
-            print("Running commit analysis...")
-            owner, repo_name = (
-                args.repo_url.split("/")[-2],
-                args.repo_url.split("/")[-1],
-            )
+            logging.info("Running commit analysis...")
+            owner, repo_name = args.repo_url.split("/")[-2:]
             analyze_commits(
-                owner,
-                repo_name,
+                owner=owner,
+                repo_name=repo_name,
                 contributor=args.contributor,
                 show_code=args.show_code,
                 enable_commit_analysis=True,
             )
         elif args.adversarial:
-            print("Running adversarial analysis...")
+            logging.info("Running adversarial analysis...")
             OriginCLI(args).provenance_menu(run_adversarial=True)
         elif args.repo_url:
-            print("Running provenance analysis and geography check...")
+            logging.info("Running provenance analysis and geography check...")
             OriginCLI(args).provenance_menu(run_geography_check=True)
         else:
-            # No arguments provided, fall back to the main menu
+            # Interactive menu mode
             while True:
                 choice = display_main_menu()
                 if choice == "1":
-                    print("Running Provenance Analysis...")
+                    logging.info("Running Provenance Analysis...")
                     OriginCLI(args).provenance_menu()
                 elif choice == "2":
-                    print("Running SBOM Analysis... (not yet implemented)")
+                    logging.info("Running SBOM Analysis... (not yet implemented)")
                 elif choice == "3":
-                    print("Running VCS Analysis... (not yet implemented)")
+                    logging.info("Running VCS Analysis... (not yet implemented)")
                 elif choice == "4":
-                    print("Entering CLI Mode...")
+                    logging.info("Entering CLI Mode...")
                     OriginCLI(args).cmdloop()
                 elif choice == "5":
-                    print("Exiting... Goodbye!")
+                    logging.info("Exiting... Goodbye!")
                     break
                 else:
-                    print("Invalid choice. Please select a valid option.")
+                    logging.warning("Invalid choice. Please select a valid option.")
     except KeyboardInterrupt:
-        print("\nProcess interrupted. Exiting gracefully.")
+        logging.info("\nProcess interrupted. Exiting gracefully.")
         sys.exit(0)
 
 
