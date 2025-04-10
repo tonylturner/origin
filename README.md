@@ -4,6 +4,8 @@
 
 The **Origin** OSINT project is a tool designed to fetch and analyze contributors, forks, and commit details from any GitHub repository. The tool is designed around the idea of provenance for open-source software and other associated risk characteristics related to software origins.
 
+This project should be considered Alpha quality at best and not suitable for production usage at this time. 
+
 ## Features
 
 - Fetch contributors, forks, and commit details from a GitHub repository.
