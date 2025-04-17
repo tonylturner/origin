@@ -17,6 +17,8 @@ This project should be considered Alpha quality at best and not suitable for pro
 
 The tool checks the geographic location of contributors and identifies contributors from adversarial countries based on a predefined list: [China, Russia, Iran, North Korea, Cuba, Venezuela]
 
+To modify the list of banned countries, see `/provenance/adversarial_check.py`
+
 
 ## Installation
 
